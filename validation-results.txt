@@ -734,3 +734,667 @@ FAIL C Altaisciencecom Privacy Policy extract https://altaiscience.com/privacy/
 OK Alphainventor Privacy Policy https://www.alphainventor.com/file-manager-plus-privacy-policy 13595 characters
 OK Alphr Terms of Service https://www.alphr.com/tos/ 122541 characters
 OK Alphr Privacy Policy https://www.alphr.com/privacy-policy/ 109240 characters
+FAIL B Alphabugs Terms of Service fetch https://alphabugs.co.za/tcs
+FAIL B Alphabugs Privacy Policy fetch https://alphabugs.co.za/privacy-policy/
+FAIL B Alternativeto Privacy Policy fetch https://alternativeto.net/about/privacy/
+FAIL B Alternativeto Trackers Policy fetch https://alternativeto.net/about/cookie-policy/
+FAIL B Alternativeto Developer Terms fetch https://alternativeto.net/about/privacy/
+OK Alternet Privacy Policy https://www.alternet.org/2020/09/privacy-policy-2647452896/ 13255 characters
+OK Alterra mountain company Privacy Policy https://www.alterramtnco.com/privacy-policy/ 165042 characters
+OK Alterra mountain company Terms of Service https://www.alterramtnco.com/terms-of-use/ 47308 characters
+OK Alternative behavior strategies Legal Information https://www.abskids.com/notice-of-privacy-practices/ 18039 characters
+OK Altdentifier Privacy Policy https://altdentifier.com/tos 8622 characters
+OK Alternative behavior strategies Privacy Policy https://www.abskids.com/privacy-policy 24324 characters
+OK Altervista Privacy Policy https://www.iubenda.com/privacy-policy/8267552 10009 characters
+FAIL B Altria Terms of Service fetch https://www.altria.com/terms-of-use
+FAIL B Altria Privacy Policy fetch https://www.altria.com/privacy
+OK Altervista Trackers Policy https://www.iubenda.com/privacy-policy/87184196/cookie-policy?ifr=true&height=309 73111 characters
+OK Altervista Terms of Service https://en.altervista.org/terms.php 83169 characters
+OK Always personal Privacy Policy https://www.alwayspersonal.co.uk/pages/privacy-policy 16787 characters
+OK Alza Privacy Policy https://www.alza.co.uk/privacy-policy 2544 characters
+OK Always personal Terms of Service https://www.alwayspersonal.co.uk/pages/terms-conditions 29833 characters
+OK Alura Privacy Policy https://www.alura.com.br/politica-de-privacidade 28277 characters
+OK Alura Terms of Service https://www.alura.com.br/termos-de-uso 38809 characters
+FAIL B Am i ugly Privacy Policy fetch https://am-i-ugly.com/privacy.html
+OK Aman ahuja Privacy Policy https://amanahuja.me/privacy-policy/ 2495 characters
+OK Alwaysdata Terms of Service https://www.alwaysdata.com//en/terms-and-legal 10645 characters
+OK Alviy Privacy Policy https://alviy.com/en/privacy 3580 characters
+OK Alviy Terms of Service https://alviy.com/en/legal 11366 characters
+OK Alzforum Terms of Service https://www.alzforum.org/terms-of-use 46124 characters
+OK Alzforum Privacy Policy https://www.alzforum.org/privacy-policy 31285 characters
+OK Amateur 8 Privacy Policy https://www.amateur8.com/privacy/ 24454 characters
+OK Amateur 8 Terms of Service https://www.amateur8.com/terms/ 24359 characters
+OK Amateur 8 Copyright Claims Policy https://www.amateur8.com/dmca/ 5004 characters
+OK Amateur 8 Records Keeping Policy https://www.amateur8.com/2257/ 3694 characters
+FAIL B Amazon prime video Trackers Policy fetch https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050&&pop-up=1
+FAIL B Amazon prime video Legal Information fetch https://www.amazon.com/gp/help/customer/display.html?nodeId=201909010&pop-up=1
+OK Amazon aws Terms of Service https://aws.amazon.com/service-terms/ 278446 characters
+OK Amara Terms of Service https://pculture.org/terms-of-service 14087 characters
+OK Amara Privacy Policy https://pculture.org/privacy 12455 characters
+OK Amazon aws Legal Information https://aws.amazon.com/privacy/ 65713 characters
+OK Amazon prime video Terms of Service https://www.primevideo.com/region/na/help?nodeId=202095490&pop-up=1/ref=atv_hp_cnt 35749 characters
+OK Amateurtv Terms of Service https://en.amateur.tv/web/conditions 25307 characters
+OK Amateurtv Trackers Policy https://en.amateur.tv/web/cookies 25259 characters
+OK Amateurtv Privacy Policy https://en.amateur.tv/web/privacy-summary 25235 characters
+FAIL B Amellia skin cream Terms of Service fetch https://tryamelliaskin.com/afsksv1/terms
+FAIL B Amellia skin cream Privacy Policy fetch https://tryamelliaskin.com/afsksv1/privacy/
+FAIL B Amc theatres Privacy Policy fetch https://www.amctheatres.com/privacy-policy
+FAIL B Amc theatres Terms of Service fetch https://www.amctheatres.com/terms-and-conditions/on-demand
+FAIL B Amazon Frequently Asked Questions fetch https://www.amazon.com/gp/help/customer/display.html?nodeId=201604140
+FAIL B Amazon Terms of Service fetch https://www.amazon.com/gp/help/customer/display.html?nodeId=201124320
+FAIL B Amazon Trackers Policy fetch https://www.amazon.com/gp/help/customer/display.html?nodeId=202075050
+FAIL B Amazon Privacy Policy fetch https://www.amazon.com/gp/help/customer/display.html/ref=hp_left_v4_sib?ie=UTF8&nodeId=202135380
+FAIL B Amazon Legal Information fetch https://www.amazon.com.au/gp/help/customer/display.html?nodeId=468496&ref_=footer_privacy
+OK Amboss Terms of Service https://www.amboss.com/us/terms 44798 characters
+OK Amboss Privacy Policy https://www.amboss.com/us/privacy 57151 characters
+FAIL B Amd  advanced micro devices Privacy Policy fetch https://www.amd.com/en/corporate/privacy
+FAIL B Amd  advanced micro devices Copyright Claims Policy fetch https://www.amd.com/en/corporate/dmca-notice
+FAIL B Amd  advanced micro devices Trackers Policy fetch https://www.amd.com/en/corporate/cookies
+FAIL B Amd  advanced micro devices Terms of Service fetch https://www.amd.com/en/corporate/copyright
+OK American bubble company General Conditions of Sale https://bubbletreeusa.com/pages/returns 6312 characters
+OK American academy of pediatric dentistry Terms of Service https://www.aapd.org/terms-of-use/ 17476 characters
+OK American academy of pediatric dentistry Privacy Policy https://www.aapd.org/privacy-policy/ 20534 characters
+FAIL C American city business journals Terms of Service extract https://acbj.com/useragreement
+FAIL C American city business journals Trackers Policy extract https://acbj.com/privacy
+OK American bubble company Privacy Policy https://bubbletreeusa.com/pages/privacy-policy 21890 characters
+OK American bubble company Terms of Service https://bubbletreeusa.com/pages/terms-of-use 25567 characters
+OK American academy of dental sleep medicine Privacy Policy https://mms.aadsm.org/privacy_policy_start.php?org_id=adsm 27354 characters
+OK Amaze Privacy Policy https://amaze.org/terms-and-privacy 20622 characters
+OK American enterprise institute Privacy Policy https://www.aei.org/about/terms-of-use/ 15738 characters
+FAIL B American family mutual insurance company Terms of Service fetch https://www.amfam.com/terms-and-conditions
+OK American civil liberties union Privacy Policy https://www.aclu.org/about/privacy/statement?redirect=american-civil-liberties-union-privacy-statement 56328 characters
+OK American family mutual insurance company Privacy Policy https://www.amfam.com/privacy-security 5188 characters
+OK American data bank Privacy Policy https://www.americandatabank.com/consumer-information/privacy-policy/ 24824 characters
+OK American council on education Privacy Policy https://www.acenet.edu/Pages/privacy.aspx 21825 characters
+OK American council on education Terms of Service https://www.acenet.edu/Pages/Terms-of-Use.aspx 18226 characters
+OK American civil liberties union Terms of Service https://www.aclu.org/aclu-site-user-agreement 11009 characters
+OK American data bank Terms of Service https://www.americandatabank.com/consumer-information/legal-policy/ 11125 characters
+OK American kennel club Copyright Claims Policy https://www.akc.org/about/site/reproduction-policy/ 38229 characters
+OK American kennel club Affiliate Disclosure https://www.akc.org/about/site/linking-policy/ 39856 characters
+OK American library association Privacy Policy https://www.ala.org/privacypolicy 29508 characters
+OK American kennel club Privacy Policy https://www.akc.org/privacy/ 73892 characters
+OK American free press website Terms of Service https://americanfreepress.net/terms-of-service/ 11671 characters
+OK American free press website Privacy Policy https://americanfreepress.net/privacy-policy/ 18742 characters
+OK American kennel club Terms of Service https://marketplace.akc.org/termsofservice 139326 characters
+OK American partnership for eosinophilic disorders Terms of Service https://apfed.org/terms-of-use 50357 characters
+OK American partnership for eosinophilic disorders Privacy Policy https://apfed.org/disclaimer-privacy-policy 52874 characters
+OK American guest house Privacy Policy https://www.americanguesthouse.com/privacy-policy 18788 characters
+OK American public media group Privacy Policy https://www.americanpublicmedia.org/privacy/ 33014 characters
+OK American society for the prevention of cruelty to animals Terms of Service https://www.aspca.org/about-us/legal-information 30577 characters
+OK American public media group Terms of Service https://www.americanpublicmedia.org/terms/ 41499 characters
+OK American society for the prevention of cruelty to animals Privacy Policy https://www.aspca.org/about-us/privacy-policy 25867 characters
+OK American red cross Terms of Service https://www.redcross.org/terms-of-use.html 31735 characters
+OK American prize center llc Privacy Policy https://contact.sweepstakesamonth.com/policies/privacy 319 characters
+OK American steamship company Privacy Policy https://www.americansteamship.com/terms-of-service/ 7919 characters
+OK American prize center llc Terms of Service https://contact.sweepstakesamonth.com/policies/terms 319 characters
+OK American thinker Privacy Policy https://www.americanthinker.com/static/privacy_policy.html 9592 characters
+OK American wolves General Conditions of Sale https://americanwolves.com/policies/refund-policy 15765 characters
+OK Americanlisted Trackers Policy https://www.americanlisted.com/cookie_policy.html 14368 characters
+OK Americanlisted Privacy Policy https://www.americanlisted.com/privacy.html 14659 characters
+OK Americanlisted Terms of Service https://www.americanlisted.com/terms.html 22960 characters
+OK American wolves Terms of Service https://americanwolves.com/policies/terms-of-service 31869 characters
+FAIL B Americas health insurance plans Terms of Service fetch https://www.ahip.org/tos
+FAIL B Americas health insurance plans Privacy Policy fetch https://www.ahip.org/privacy
+OK American wolves Privacy Policy https://americanwolves.com/pages/privacy-policy 6336 characters
+FAIL C Americascardroomeu Terms of Service extract https://www.americascardroom.eu/poker-customer-support/terms-and-conditions/
+FAIL B Amethyst craft Privacy Policy fetch https://amethystcraft.com/privacy.html
+FAIL B Amethyst craft Community Guidelines fetch https://forum.amethystcraft.com/faq
+FAIL B Amethyst craft Terms of Service fetch https://forum.amethystcraft.com/tos
+OK Amgen Terms of Service https://www.amgen.com/terms-of-use 116713 characters
+FAIL B Amino Trackers Policy fetch https://support.aminoapps.com/hc/en-us/articles/360004040313-Does-Amino-use-cookies-on-its-website-
+OK Amgen Privacy Policy https://wwwext.amgen.com/privacy-statement 130607 characters
+FAIL B Amiunique Privacy Policy fetch https://amiunique.org/privacy
+OK Amethyst hosting Terms of Service https://amethysthosting.co.uk/terms 71722 characters
+OK Amino Terms of Service https://narvii.com/tos.html 37555 characters
+OK Amino Privacy Policy https://narvii.com/privacy 37555 characters
+FAIL B Amnesty international swizerland Privacy Policy fetch https://www.amnesty.ch/fr/contacts/impressum/questions-legales/protection-des-donnees
+OK Amnesty international de Privacy Policy https://www.amnesty.de/datenschutzhinweise 185079 characters
+OK Among us Terms of Service https://among-us.io/terms-of-use/ 16317 characters
+OK Among us Privacy Policy https://among-us.io/privacy-policy/ 27610 characters
+OK Amnesty international limited uk Privacy Policy https://www.amnesty.org/en/about-us/privacy-policy/ 18708 characters
+OK Amnesty international limited uk Trackers Policy https://www.amnesty.org/en/about-us/cookie-statement/ 17176 characters
+FAIL B Amper music Privacy Policy fetch https://www.ampermusic.com/privacy/
+FAIL B Amper music Terms of Service fetch https://www.ampermusic.com/terms/
+FAIL B Amtrak vacations Privacy Policy fetch https://www.amtrakvacations.com/privacy-policy
+FAIL B Amtrak vacations Terms of Service fetch https://www.amtrakvacations.com/terms-conditions
+OK Amor kids dentistry Terms of Service https://www.amorkidsdentistry.com/disclaimers/terms/ 9605 characters
+OK Amor kids dentistry Privacy Policy https://www.amorkidsdentistry.com/disclaimers/privacy/ 9302 characters
+OK Amplified it Privacy Policy https://www.amplifiedit.com/privacy-policy/ 26798 characters
+OK Amy porterfield Privacy Policy https://www.amyporterfield.com/privacy/ 19112 characters
+OK Amy porterfield Terms of Service https://www.amyporterfield.com/terms-and-conditions/ 35460 characters
+OK Amplitude Privacy Policy https://amplitude.com/privacy 131919 characters
+OK An1com Privacy Policy https://an1.com/privacy-policy.html 8682 characters
+OK An1com Copyright Claims Policy https://an1.com/dmca.html 7146 characters
+OK Anantaraha Privacy Policy https://anantaraha.github.io/mymoney/privacy.html 3020 characters
+OK Analytically Privacy Policy https://analytically.net/pages/privacy 521 characters
+OK Ancestry  services Privacy Policy https://www.ancestry.com/cs/legal/privacystatement 76969 characters
+OK Analytically Terms of Service https://analytically.net/pages/terms 945 characters
+OK Ancestry  services General Conditions of Sale https://www.ancestry.com/cs/legal/renewal-cancellation-terms 26618 characters
+OK Ancestry  services Terms of Service https://www.ancestry.com/cs/legal/termsandconditions 57255 characters
+OK Ancestry  services Community Guidelines https://www.ancestry.com/cs/legal/community-rules 14080 characters
+OK Ancestry  services Trackers Policy https://www.ancestry.com/cs/legal/AboutCookies 17547 characters
+OK Amsixnet Trackers Policy https://www.ams-ix.net/ams/cookie-policy 6693 characters
+OK Amsixnet Terms of Service https://www.ams-ix.net/ams/documentation/general-terms-and-conditions 18542 characters
+OK Amsixnet Privacy Policy https://www.ams-ix.net/ams/documentation/privacy-policy 13409 characters
+OK And breathe Privacy Policy https://andbreathe.co.uk/privacy/ 1298 characters
+OK Andar software Privacy Policy https://andarsoftware.com/privacy-policy/ 22510 characters
+OK Andisearch Privacy Policy https://andisearch.com/privacy 468 characters
+OK Andmark home warranty Terms of Service https://www.landmarkhw.com/terms-of-use 17105 characters
+OK Anchor Privacy Policy https://anchor.fm/privacy 56100 characters
+OK Anchor Terms of Service https://anchor.fm/tos 72671 characters
+OK Anchor Copyright Claims Policy https://anchor.fm/dmca 72671 characters
+OK Andreasekman Privacy Policy https://www.andreasekman.com/legal.html 364 characters
+FAIL B Amz autopilot Privacy Policy fetch https://www.amzdfy.com/privacy
+OK Andrews mcmeel universal Privacy Policy https://www.andrewsmcmeel.com/privacy-policy/ 34778 characters
+OK Android zone Privacy Policy https://android-zone.ws/privacy 5010 characters
+OK Android zone Terms of Service https://android-zone.ws/terms 3296 characters
+FAIL B Amz autopilot Terms of Service fetch https://www.amzdfy.com/automation-terms
+OK Andreas boltres Privacy Policy https://flunzmas.com/seasoncalendar-privacy-policy 1204 characters
+OK Andreas varro art Terms of Service https://www.andreasvarro.com/terms-conditions 23274 characters
+OK Andreas varro art Privacy Policy https://www.andreasvarro.com/privacy-policy 23070 characters
+OK Anidb Policy https://anidb.net/policy 18757 characters
+FAIL C Anecdata Privacy Policy extract https://www.anecdata.org/pages/privacy
+OK Android Privacy Policy https://androidwedakarayo.com/privacy/ 27245 characters
+OK Angeion group Privacy Policy https://angeion-public.s3.amazonaws.com/docs/Privacy_Policy.pdf 15861 characters
+FAIL B Angellist talent Trackers Policy fetch https://angel.co/privacy
+FAIL B Angellist talent Terms of Service fetch https://angel.co/terms
+OK Anilist Privacy Policy https://anilist.co/terms 95 characters
+OK Animaker Privacy Policy https://www.animaker.com/terms-policy 152293 characters
+OK Animal jam Privacy Policy https://www.animaljam.com/en/privacy 19518 characters
+OK Animal jam classic Privacy Policy https://www.animaljam.com/en/privacy 19518 characters
+OK Animal jam classic Terms of Service https://www.animaljam.com/en/terms_of_service 29361 characters
+OK Animal jam Terms of Service https://www.animaljam.com/en/terms_of_service 29361 characters
+OK Anime music quiz Privacy Policy https://animemusicquiz.com/legal/privacy 11501 characters
+OK Anedot Privacy Policy https://www.anedot.com/privacy 27681 characters
+FAIL B Anime planet Privacy Policy fetch https://www.anime-planet.com/privacypolicy
+FAIL B Anime planet Terms of Service fetch https://www.anime-planet.com/termsofuse
+OK Anime music quiz Terms of Service https://animemusicquiz.com/legal/tos 38672 characters
+OK Anedot Terms of Service https://www.anedot.com/terms-for-fundraising-organizations 126997 characters
+FAIL B Anki Privacy Policy fetch https://www.anki.com/en-us/company/privacy
+FAIL B Anki Trackers Policy fetch https://www.anki.com/en-us/company/cookie-policy
+OK Anime dakimakura Terms of Service https://www.animedakimakura.com/conditions.html 66286 characters
+OK Anime dakimakura Legal Information https://www.animedakimakura.com/privacy.html 65170 characters
+FAIL B Anisearch Privacy Policy fetch https://www.anisearch.com/faq/privacy
+OK Ankiweb Privacy Policy https://ankiweb.net/account/privacy 23 characters
+OK Ankiweb Terms of Service https://ankiweb.net/account/terms 23 characters
+OK Annual credit report Terms of Service https://www.annualcreditreport.com/termsOfUse.action 5604 characters
+OK Annual credit report Privacy Policy https://www.annualcreditreport.com/privacy.action 19299 characters
+OK Anonaddy Terms of Service https://anonaddy.com/terms/ 8697 characters
+OK Anonaddy Privacy Policy https://anonaddy.com/privacy/ 6183 characters
+FAIL B Anokhi Legal Information fetch https://bank.anokhi.ai/privacy-compliance/
+FAIL B Anokhi Terms of Service fetch https://bank.anokhi.ai/terms-and-conditions/
+FAIL B Anonfiles Terms of Service fetch https://anonfile.com/terms
+OK Anonfilesme Privacy Policy https://anonfiles.me/privacy 609 characters
+OK Anonine Terms of Service https://anonine.com/terms-of-service 22789 characters
+OK Ant download manager Privacy Policy https://antdownloadmanager.com/policy 5964 characters
+OK Anonine Privacy Policy https://anonine.com/privacy-policy 32400 characters
+OK Anonicloud Privacy Policy https://www.anonicloud.ch/it/privacy 7924 characters
+OK Anonfilesme Terms of Service https://anonfiles.me/terms 609 characters
+FAIL B Answerstoall Privacy Policy fetch https://answerstoall.com/privacy-policy/
+FAIL B Answerstoall Terms of Service fetch https://answerstoall.com/terms-and-conditions/
+OK Anti spy mobile Privacy Policy http://antispymobile.com/privacy-policy/ 6439 characters
+OK Antennaweb Privacy Policy https://www.antennaweb.org/policies/privacy 15337 characters
+OK Antennaweb Terms of Service https://www.antennaweb.org/policies/terms 21060 characters
+OK Annemiek de bruin Privacy Policy https://annemiekdebruin.nl/privacy-policy/ 1916 characters
+FAIL B Antenna deals Privacy Policy fetch https://antennadeals.com/PrivacyPolicy.html
+OK Antidefamation league Privacy Policy https://www.adl.org/privacy-policy 118 characters
+FAIL B Antisip Privacy Policy fetch https://www.antisip.com/service/privacy.html
+OK Anticaptcha Privacy Policy https://anti-captcha.com/privacypolicy.html 983 characters
+OK Antimatter dimensions Privacy Policy https://kajfik.github.io/privacy_policy.html 5289 characters
+OK Anticaptcha Terms of Service https://anti-captcha.com/tos_en.html 6840 characters
+OK Anthology Privacy Policy https://www.anthology.com/privacy-policy 69165 characters
+FAIL B Any book pdf Copyright Claims Policy fetch https://anybookpdf.com/dmca/
+FAIL B Any book pdf Privacy Policy fetch https://anybookpdf.com/privacy-policy/
+FAIL B Any book pdf Terms of Service fetch https://anybookpdf.com/terms-conditions/
+OK Anvil works Privacy Policy https://anvil.works/privacy 5634 characters
+OK Anvil works Terms of Service https://anvil.works/terms-of-service 25577 characters
+OK Antiwarcom Community Guidelines https://www.antiwar.com/submissions.php 7195 characters
+OK Anybook Privacy Policy https://www.anybook.ai/privacy-en.html 14132 characters
+OK Antiwarcom Privacy Policy https://www.antiwar.com/privacy.php 4632 characters
+OK Anybook Terms of Service https://www.anybook.ai/terms-en.html 21324 characters
+OK Antiwarcom Policy https://www.antiwar.com/reprint.php 632 characters
+OK Antidote Privacy Policy https://www.antidote.info/en/privacy-policy 24027 characters
+OK Antidote Terms of Service https://www.antidote.info/en/conditions-use 8667 characters
+OK Anyflip Terms of Service https://anyflip.com/termsofservice/ 58469 characters
+OK Anyip Trackers Policy https://anyip.io/cookie-policy-eu 9930 characters
+OK Anyip Terms of Service https://anyip.io/terms-and-conditions 27849 characters
+OK Anydayguide Trackers Policy https://anydayguide.com/cookies 4686 characters
+OK Anydayguide Privacy Policy https://anydayguide.com/privacy 9309 characters
+OK Anydayguide Terms of Service https://anydayguide.com/terms 21986 characters
+OK Anyflip Copyright Claims Policy https://anyflip.com/dmca/ 2116 characters
+FAIL C Anydo Privacy Policy extract https://www.any.do/legal/privacy-policy
+OK Anyflip Privacy Policy https://anyflip.com/privacy/ 26216 characters
+OK Anymp4 Terms of Service https://www.anymp4.com/terms-of-use.html 13190 characters
+OK Anymp4 Privacy Policy https://www.anymp4.com/privacy-policy.html 17333 characters
+OK Anyip Privacy Policy https://anyip.io/privacy-policy 14978 characters
+OK Anydo Terms of Service https://www.any.do/legal/app-license-agreement 8663 characters
+FAIL C Anydo Trackers Policy extract https://www.any.do/legal/cookies-policy
+OK Anydesk Terms of Service https://anydesk.com/en/terms 53792 characters
+OK Anydesk Privacy Policy https://anydesk.com/en/data-processing-agreement 32925 characters
+FAIL C Aon Terms of Service extract https://aonmt.tbs.aon.com/legal
+FAIL C Anytype Terms of Service extract https://anytype.io/terms_of_use/
+OK Anyrun Privacy Policy https://app.any.run/privacy.html 13494 characters
+OK Anyrun Terms of Service https://app.any.run/terms.html 29323 characters
+FAIL C Anytype Privacy Policy extract https://anytype.io/website_privacy
+FAIL C Ap Terms of Service extract https://www.ap.org/terms-and-conditions
+OK Ap Privacy Policy https://www.ap.org/privacy-policy 59320 characters
+OK Apartment list Privacy Policy https://www.apartmentlist.com/about/privacy 23004 characters
+OK Apartment list Terms of Service https://www.apartmentlist.com/about/terms 35510 characters
+OK Ap news Terms of Service https://apnews.com/termsofservice 78269 characters
+OK Apertatube Community Guidelines https://apertatube.net/about 1195 characters
+OK Apertatube Privacy Policy https://apertatube.net/about/peertube 1195 characters
+OK Aomei backupper Privacy Policy https://www.ubackup.com/privacy.html 41 characters
+OK Aomei backupper Terms of Service https://www.ubackup.com/terms.html 37 characters
+OK Ap news Privacy Policy https://apnews.com/privacystatement 74088 characters
+OK Apeaksoft Terms of Service https://www.apeaksoft.com/end-user-license-agreement.html 5509 characters
+OK Apeaksoft Privacy Policy https://www.apeaksoft.com/privacy-policy.html 7891 characters
+FAIL B Apex hosting Privacy Policy fetch https://apexminecrafthosting.com/privacy-policy/
+FAIL B Apex hosting Terms of Service fetch https://apexminecrafthosting.com/terms-of-service/
+OK Apache Privacy Policy https://privacy.apache.org/policies/privacy-policy-public.html 19942 characters
+FAIL B Apk pure Privacy Policy fetch https://apkpure.com/privacy-policy.html
+FAIL B Apetiz Legal Information fetch https://www.commande.apetiz.com/bfy/pdf/doc_gdpr.action?cid=46166
+OK Apetiz Terms of Service https://www.apetiz.com/jcms/fr/conditions-generales-d-utilisation-hen_5041.html 12474 characters
+FAIL B Apex water filters Privacy Policy fetch https://apexwaterfilters.com/privacy
+FAIL C Apex water filters General Conditions of Sale extract https://apexwaterfilters.com/returns
+OK Apex water filters Terms of Service https://apexwaterfilters.com/terms-conditions/ 21793 characters
+FAIL B Apkadmin Terms of Service fetch https://apkadmin.com/tos.html
+FAIL B Apkadmin Privacy Policy fetch https://apkadmin.com/pages/privacy_policy.html
+FAIL B Apkadmin Copyright Claims Policy fetch https://apkadmin.com/pages/dmca.html
+OK Apkcombo Terms of Service https://apkcombo.com/terms 17686 characters
+OK Apkcombo Copyright Claims Policy https://apkcombo.com/dmca 4451 characters
+OK Apkcombo Privacy Policy https://apkcombo.com/privacy-policy 9818 characters
+FAIL B Apkmirrior Privacy Policy fetch https://www.apkmirror.com/apkmirror-com-privacy-policy/
+OK Apkvision Privacy Policy https://apkvision.com/privacy-policy/ 4661 characters
+OK Apkvision Terms of Service https://apkvision.com/terms-of-service/ 4501 characters
+OK Apkvision Copyright Claims Policy https://apkvision.com/dmca/ 2814 characters
+FAIL B Apkmirrior Copyright Claims Policy fetch https://www.apkmirror.com/dmca-copyright-infringement-notification/
+OK Appalachian Privacy Policy https://www.appstate.edu/privacy/ 13351 characters
+OK Appforce1 Privacy Policy https://appforce1.net/privacy-web.html 14760 characters
+OK Appdb Terms of Service https://appdb.to/info/tos 106 characters
+OK Appdb Privacy Policy https://appdb.to/info/privacy 106 characters
+OK Appinn Privacy Policy https://www.appinn.com/privacy/ 11668 characters
+OK Appbox Policy https://www.appbox.co/policies/ 27385 characters
+OK Appbox Terms of Service https://www.appbox.co/terms-of-service/ 76983 characters
+OK Appcast Terms of Service https://www.appcast.io/legal/?cpc-publisher-terms 154244 characters
+OK Appcast Privacy Policy https://www.appcast.io/privacy-policy/ 32647 characters
+FAIL C Apple services Terms of Service extract https://www.shazam.com/terms
+OK Apple services Privacy Policy https://www.apple.com/legal/privacy/en-ww/ 31155 characters
+FAIL B Applebees Terms of Service fetch https://www.applebees.com/en/terms-of-use
+FAIL B Applebees Privacy Policy fetch https://www.applebees.com/en/mobile-program
+OK Applovin Terms of Service https://www.applovin.com/eula/ 22446 characters
+OK Appkarma Privacy Policy https://www.appkarma.io/legal/privacy/ 432 characters
+OK Appkarma Terms of Service https://www.appkarma.io/legal/terms/ 18225 characters
+OK Applovin Privacy Policy https://www.applovin.com/privacy/ 36133 characters
+OK Applovin Legal Information https://www.applovin.com/dmca/ 12087 characters
+OK Apple service center Privacy Policy https://applelaptopservice.center/privacy-policy/ 11206 characters
+OK Apple service center Terms of Service https://applelaptopservice.center/terms-conditions/ 10260 characters
+OK Appointmentthing Trackers Policy https://appointmentthing.com/privacy/cookie-policy 8589 characters
+OK Appointmentthing Data Processor Agreement https://appointmentthing.com/privacy/subdata-processors 4069 characters
+OK Appointmentthing Terms of Service https://appointmentthing.com/terms 23181 characters
+OK Appointmentthing Privacy Policy https://appointmentthing.com/privacy 31351 characters
+OK Appnet Copyright Claims Policy https://app.net/copyright 9734 characters
+OK Appnet Terms of Service https://app.net/terms 39341 characters
+OK Appnet Privacy Policy https://app.net/privacy 24217 characters
+OK Apps cyborg Terms of Service https://appscyborg.com/terms-and-conditions 9766 characters
+OK Applyboard Trackers Policy https://www.applyboard.com/privacy-policy 94768 characters
+FAIL B Applyme Privacy Policy fetch http://apply.me/privacy-policy
+FAIL B Applyme Terms of Service fetch http://apply.me/terms-of-use
+OK Applyboard Terms of Service https://www.applyboard.com/terms-and-conditions 56918 characters
+OK Appsheet Terms of Service https://www.appsheet.com/Home/Terms 1885 characters
+OK Appsflyer Privacy Policy https://www.appsflyer.com/services-privacy-policy/ 28049 characters
+OK Appsflyer Terms of Service https://www.appsflyer.com/terms-of-use 54558 characters
+OK Apps112 Terms of Service https://www.apps112.com/terms.html 10524 characters
+OK Appsflyer Trackers Policy https://www.appsflyer.com/cookie-policy 16692 characters
+OK Apps112 Privacy Policy https://www.apps112.com/policy.html 18609 characters
+OK Appsumo Terms of Service https://appsumo.com/terms-of-use/ 28763 characters
+OK Appsumo Privacy Policy https://appsumo.com/privacy/ 30221 characters
+FAIL B Appvalley Privacy Policy fetch https://appvalleyapp.com/privacy-policy
+FAIL B Aquatis Privacy Policy fetch https://aquatis.host/privacy-policy
+FAIL B Aquatis Terms of Service fetch https://aquatis.host/service-level-agreement
+OK Appuals Trackers Policy https://appuals.com/cookie-policy/ 29263 characters
+OK Appuals Privacy Policy https://appuals.com/privacy-policy/ 33568 characters
+FAIL B Appuals Vulnerability Disclosure Policy fetch https://appuals.com/affiliate-disclosure/
+OK Appuals Terms of Service https://appuals.com/terms-conditions/ 5781 characters
+FAIL B Ar designs stl General Conditions of Sale fetch https://www.ardesignsstl.com/reture-policy
+FAIL C Aquafina Terms of Service extract https://www.aquafina.com/en-US/terms-en-US.html
+OK Aptoide Privacy Policy https://en.aptoide.com/company/legal?section=privacy 41862 characters
+OK Aptoide Terms of Service https://en.aptoide.com/company/legal?section=terms 41862 characters
+OK Aptoide Trackers Policy https://en.aptoide.com/company/legal?section=cookie 41862 characters
+OK Aquafina Privacy Policy https://policy.aquafina.com/privacy.htm 21087 characters
+OK Arc games Trackers Policy https://www.arcgames.com/en/about/cookie 10089 characters
+OK Arc games Terms of Service https://www.arcgames.com/en/about/terms 89031 characters
+OK Arc games Privacy Policy https://www.arcgames.com/en/about/privacy 53116 characters
+OK Arcademics Privacy Policy https://www.arcademics.com/privacy 6973 characters
+OK Aragon ventures llc Privacy Policy https://aragon.ventures/privacy 14086 characters
+OK Arcademics Terms of Service https://www.arcademics.com/terms 10530 characters
+OK Arcade museum Privacy Policy https://www.arcade-museum.com/accounts/privacy-policy.php 32827 characters
+OK Arcade museum Copyright Claims Policy https://www.arcade-museum.com/accounts/copyright-claims.php 20100 characters
+OK Aramark Privacy Policy https://www.aramark.com/other/privacy-policy 46 characters
+OK Arcade museum Terms of Service https://www.arcade-museum.com/accounts/terms-of-use.php 40809 characters
+OK Aramark Terms of Service https://www.aramark.com/other/terms-conditions 46 characters
+OK Archivetoday Frequently Asked Questions https://archive.is/faq 7720 characters
+OK Archive of our own Privacy Policy https://archiveofourown.org/tos#privacy 78948 characters
+FAIL B Archivetoday Privacy Policy fetch https://addons.mozilla.org/en-US/firefox/addon/archive-page/privacy/
+OK Arch linux Community Guidelines https://gitlab.archlinux.org/archlinux/service-agreements/-/blob/master/code-of-conduct.md 990 characters
+OK Archive of our own Copyright Claims Policy https://archiveofourown.org/dmca 10925 characters
+OK Archwiki Legal Information https://wiki.archlinux.org/index.php/ArchWiki:General_disclaimer 5902 characters
+OK Archive of our own Terms of Service https://archiveofourown.org/tos 78929 characters
+OK Arch linux Copyright Claims Policy https://wiki.archlinux.org/index.php/DeveloperWiki:TrademarkPolicy 13273 characters
+OK Arch linux Privacy Policy https://wiki.archlinux.org/index.php/ArchWiki:Privacy_policy 23646 characters
+OK Archwiki Privacy Policy https://wiki.archlinux.org/index.php/ArchWiki:Privacy_policy 23646 characters
+OK Arduino Vulnerability Disclosure Policy https://www.arduino.cc/en/security 3545 characters
+OK Arduino Privacy Policy https://www.arduino.cc/en/privacy-policy 45146 characters
+OK Arduino Terms of Service https://www.arduino.cc/en/terms-conditions 25075 characters
+OK Areyougame General Conditions of Sale https://areyougame.com/pages/return-policy 25583 characters
+OK Arena sports Privacy Policy https://www.arenasports.net/privacy-policy/ 39452 characters
+OK Argustak Privacy Policy https://argustak.com/privacy 82 characters
+OK Argustak Terms of Service https://argustak.com/termsofservice 82 characters
+OK Areyougame Terms of Service https://areyougame.com/pages/ratings-reviews-terms-conditions 40020 characters
+OK Areyougame Privacy Policy https://areyougame.com/pages/privacy-policy 43111 characters
+OK Arcinfo Terms of Service https://www.arcinfo.ch/pages/conditions-generales-sur-arcinfo/ 39764 characters
+FAIL B Aria network Privacy Policy fetch https://aria-net.org/SitePages/Portal/ToS.aspx
+OK Arizona state university online Privacy Policy https://www.asu.edu/privacy/ 36351 characters
+OK Ark curriculum plus Privacy Policy https://www.arkcurriculumplus.org.uk/privacy-policy 18897 characters
+OK Arkansas democratgazette Terms of Service https://www.arkansasonline.com/tools/termsofuse/ 51710 characters
+OK Arkansas democratgazette Privacy Policy https://classifieds.arkansasonline.com/marketplace-littlerock/page/privacy.html 13691 characters
+OK Arista networks Privacy Policy https://www.arista.com/en/privacy-policy 78180 characters
+OK Arkose labs Terms of Service https://www.arkoselabs.com/legal/terms-of-use/ 42376 characters
+OK Arista networks Terms of Service https://www.arista.com/en/terms-of-use 48418 characters
+OK Arkose labs Privacy Policy https://www.arkoselabs.com/legal/privacy-policy/ 64557 characters
+FAIL B Arkouda Privacy Policy fetch https://arkouda.xyz/privacy-policy/
+OK Armcord Privacy Policy https://armcord.app/privacy.txt 3238 characters
+OK Arq backup Privacy Policy https://arqbackup.com/privacy/ 9213 characters
+OK Arq backup Terms of Service https://arqbackup.com/docs/arqcloudbackup/English.lproj/termsOfService.html 38301 characters
+OK Arlo Privacy Policy https://www.arlo.com/en-us/privacy-policy.html 63406 characters
+OK Arlo Terms of Service https://www.arlo.com/en-us/terms-and-conditions.html 109834 characters
+OK Arkeero Trackers Policy https://arkeero.com/cookies/ 9002 characters
+OK Arkeero Terms of Service https://arkeero.com/terms-and-conditions/ 18189 characters
+OK Arkeero Privacy Policy https://arkeero.com/privacy-2/ 24638 characters
+OK Arkadium Privacy Policy https://www.arkadium.com/privacy-policy/ 72443 characters
+OK Art of problem solving Terms of Service https://artofproblemsolving.com/company/tos 19122 characters
+OK Art of problem solving Privacy Policy https://artofproblemsolving.com/company/privacy 34725 characters
+OK Art of manliness Privacy Policy https://www.artofmanliness.com/privacy-policy/ 52818 characters
+OK Army national guard Privacy Policy https://www.nationalguard.com/privacy 900 characters
+OK Art by thomas brodhead Privacy Policy https://thomasbrodhead.com/privacy-policy/ 3365 characters
+FAIL B Artemislenaeu Privacy Policy fetch https://teddit.artemislena.eu/privacy
+OK Artemislenaeu Terms of Service https://pad.artemislena.eu/code/#/2/code/view/CYlbPMXv3H8rgi-lUx14vNMVIcSRcV72JVvooM8igPE/present/ 1276 characters
+OK Artemislenaeu Community Guidelines https://artemislena.eu/coc.html 6592 characters
+OK Ars technica Privacy Policy http://www.condenast.com/privacy-policy/ 69472 characters
+OK Artetv Privacy Policy https://www.arte.tv/sites/corporate/en/arte-and-your-personal-data/ 24249 characters
+OK Ars technica Affiliate Disclosure https://arstechnica.com/affiliate-link-policy/ 4795 characters
+OK Artetv Terms of Service https://www.arte.tv/sites/corporate/en/general-conditions-of-use/ 39102 characters
+OK Artfight Privacy Policy https://artfight.net/info/privacy 13129 characters
+OK Artfight Terms of Service https://artfight.net/info/tos 16448 characters
+OK Artcom Terms of Service https://www.art.com/help/terms-and-conditions.html 40240 characters
+OK Artcom Privacy Policy https://www.art.com/help/privacy-policy.html 54471 characters
+OK Arth Privacy Policy https://raw.githubusercontent.com/ArthMC/.github/main/profile/README.md 2259 characters
+OK Artix entertainment llc Trackers Policy https://www.artix.com/policy-cookies 14719 characters
+OK Artnindia General Conditions of Sale https://artnindia.com/policies/refund-policy 1020 characters
+OK Arthritis foundation Legal Information https://www.arthritis.org/about-us/privacy-notice 26453 characters
+OK Artnindia Privacy Policy https://artnindia.com/policies/privacy-policy 1020 characters
+OK Artnindia Terms of Service https://artnindia.com/policies/terms-of-service 1020 characters
+OK Arthritis foundation Terms of Service https://www.arthritis.org/about-us/terms-use 37538 characters
+OK Artifact Terms of Service https://artifact.news/tos.pdf 1162 characters
+OK Artifact Privacy Policy https://artifact.news/privacy.pdf 1162 characters
+OK Artix entertainment llc Terms of Service https://www.artix.com/policy-terms 48503 characters
+OK Artix entertainment llc Privacy Policy https://www.artix.com/policy-privacy 41230 characters
+FAIL B Artstation Privacy Policy fetch https://www.artstation.com/privacy
+FAIL B Artstation Terms of Service fetch https://www.artstation.com/tos
+OK Aruba cloud Terms of Service https://www.arubacloud.com/company/general-conditions.aspx 18810 characters
+FAIL B Aruba cloud Trackers Policy fetch https://www.aruba.it/documents/tc-files/en/02_informativa_aruba_spa_cookie_en.pdf
+FAIL B Arul john Privacy Policy fetch https://aruljohn.com/privacy/
+Warning: fetchStandardFontData: failed to fetch file "FoxitSans.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: fetchStandardFontData: failed to fetch file "FoxitSansBold.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+OK Aruba cloud Privacy Policy https://www.arubacloud.com/documents/tc-files/en/5_privacypolicyarubaspa.pdf 24065 characters
+OK Artsai Privacy Policy https://artsai.com/privacy/ 39141 characters
+OK Artspace Privacy Policy https://www.artspace.com/privacy_policy 25570 characters
+OK Artspace Terms of Service https://www.artspace.com/legal 72312 characters
+FAIL B Arvancloud Terms of Service fetch https://www.arvancloud.com/en/legal/terms
+FAIL B Arvancloud Trackers Policy fetch https://www.arvancloud.com/en/legal/cookie-statement
+FAIL B Arvancloud Acceptable Use Policy fetch https://www.arvancloud.com/en/legal/acceptable-use-policy
+FAIL B Arvancloud Privacy Policy fetch https://www.arvancloud.com/en/legal/privacy-policy
+FAIL B Arvancloud Other fetch https://www.arvancloud.com/en/legal/data-portability
+FAIL B Arvancloud Copyright Claims Policy fetch https://www.arvancloud.com/en/legal/trademark-notification-policy
+OK Asana Terms of Service https://asana.com/terms 43284 characters
+OK Arxiv Privacy Policy https://info.arxiv.org/help/policies/privacy_policy.html 25763 characters
+OK Arzamas Terms of Service https://arzamas.academy/license 44981 characters
+OK Arzamas Privacy Policy https://arzamas.academy/privacy 13592 characters
+OK Asana Trackers Policy https://asana.com/terms#cookies-notice 43307 characters
+OK Asana Privacy Policy https://asana.com/terms#privacy-policy 43310 characters
+FAIL B As repairs Privacy Policy fetch https://www.skoufi.co.uk/privacy-policy/
+FAIL B Asian tv Privacy Policy fetch https://www.asiantv.com.bd/privacy-policy/
+FAIL B Asbestosstar Privacy Policy fetch https://asbestosstar.com/privacy-policy/
+OK As seen on tv General Conditions of Sale https://www.asseenontvlive.com/policies/returns/ 9799 characters
+OK Ashley home and furniture Terms of Service https://www.ashleyfurniture.com/terms-and-conditions/ 52000 characters
+OK As seen on tv Other https://www.asseenontvlive.com/policies/safe-shopping/ 8758 characters
+OK As seen on tv Privacy Policy https://www.asseenontvlive.com/policies/terms/ 9054 characters
+OK Ashley home and furniture Privacy Policy https://www.ashleyfurniture.com/privacy-policy 69315 characters
+FAIL B Asavana Privacy Policy fetch https://asavana.com/privacy-policy
+OK Askanna Privacy Policy https://askanna.io/privacy/ 8147 characters
+OK Askanna Terms of Service https://askanna.io/terms/ 28469 characters
+OK Askgeek Privacy Policy https://askgeek.io/de/privacy 14160 characters
+OK Askcom Terms of Service https://www.ask.com/terms?qo=footerLinks 45092 characters
+OK Askcom Privacy Policy https://www.ask.com/privacy 52054 characters
+OK Ask solar Terms of Service https://asksolar.com/terms 10854 characters
+OK Ask solar Privacy Policy https://asksolar.com/privacy 21820 characters
+OK Askfm Trackers Policy https://about.ask.fm/legal/en/cookies.html 7655 characters
+OK Askfm Terms of Service https://about.ask.fm/legal/en/terms.html 66574 characters
+OK Askfm Community Guidelines https://about.ask.fm/community-guidelines/ 4386 characters
+OK Askfm Privacy Policy https://about.ask.fm/legal/en/privacy.html 52573 characters
+FAIL B Aspen dental practice Terms of Service fetch https://www.aspendental.com/terms-of-use
+FAIL B Aspen dental practice Privacy Policy fetch https://www.aspendental.com/privacy-policy
+OK Assemble nationale Legal Information https://www.assemblee-nationale.fr/dyn/info-site 21780 characters
+FAIL B Askwoody forum and newsletter Privacy Policy fetch https://www.askwoody.com/posts-and-privacy/
+OK Askjeeves Privacy Policy https://www.askjeeves.net/privacy.html 3895 characters
+FAIL B Askmefastcom Privacy Policy fetch https://www.askmefast.com/privacy
+FAIL B Askmefastcom Terms of Service fetch https://www.askmefast.com/tos
+FAIL B Associao de defesa da privacidade digital Privacy Policy fetch https://adpd.ong.br/politica-de-privacidade/
+OK Astrillvpn Privacy Policy https://www.astrill.com/privacy-policy 17139 characters
+OK Astrillvpn General Conditions of Sale https://www.astrill.com/refund-policy 12633 characters
+OK Aspiration Legal Information https://assets.ctfassets.net/ejg6grzpbbxj/3JctGJcbwxBFr2HHG1tygL/0d527f583bf757fb8dc7b2c1ea97abb7/Aspiration_Privacy_Notice_20230706.pdf 7648 characters
+OK Astrillvpn Terms of Service https://www.astrill.com/terms-of-service 35990 characters
+Warning: Bad value, for custom key "AAPL:Keywords", in Info: .
+Warning: TT: undefined function: 32
+OK Aspiration Vulnerability Disclosure Policy https://assets.aspiration.com/docs/BCP_Disclosure_Statement_2019.04.08.pdf 2308 characters
+OK Aspiration Telephone Communication Guidelines https://assets.ctfassets.net/ejg6grzpbbxj/7s85knyAH3EfrYRiVfo06Z/36d8939151e18dbbbe38c520c224f190/Aspiration_Financial__LLC___SMS_Policy._08.06.21.pdf 1473 characters
+OK Aspiration Terms of Service https://www.aspiration.com/terms-of-use 22720 characters
+OK Aspiration Privacy Policy https://www.aspiration.com/privacy-policy 28282 characters
+OK Astribes Privacy Policy https://astribes.com/policy 7909 characters
+OK Astribes Terms of Service https://astribes.com/terms 7908 characters
+FAIL B Associated bank Terms of Service fetch https://www.associatedbank.com/forms-and-disclosures/disclosures/terms-of-use
+FAIL B Associated bank Privacy Policy fetch https://www.associatedbank.com/privacy
+FAIL B Associated british foods Trackers Policy fetch https://www.abf.co.uk/cookies-policy
+FAIL B Associated british foods Legal Information fetch https://www.abf.co.uk/privacy-notice
+FAIL B Associated british foods Terms of Service fetch https://www.abf.co.uk/t-cs
+OK Astrologycraft Privacy Policy https://astrologycraft.com/common/privacypolicy.html 26753 characters
+OK Astrologycraft Terms of Service https://astrologycraft.com/common/termsofservice.html 20623 characters
+FAIL C Astronomer Privacy Policy extract https://www.astronomer.io/privacy
+FAIL C Astronomer Terms of Service extract https://www.astronomer.io/terms
+OK Astro gaming Terms of Service https://www.astrogaming.com/en-us/support/terms-and-conditions.html 3614 characters
+OK Astro gaming Privacy Policy https://www.astrogaming.com/en-us/support/privacy-policy.html 3614 characters
+OK Asus Terms of Service https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Official-Site/ 16950 characters
+OK Asus Privacy Policy https://www.asus.com/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/ 34222 characters
+FAIL B Asylumrest Privacy Policy fetch https://pics.asylum.rest/privacy
+FAIL B Asylumrest Legal Information fetch https://git.asylum.rest/
+FAIL B Aternifies Terms of Service fetch https://aternifies.cf/terms-of-service/
+FAIL B Atera networks ltd Privacy Policy fetch https://www.atera.com/privacy/
+FAIL B Atera networks ltd Terms of Service fetch https://www.atera.com/terms-of-use/
+OK Atari Terms of Service https://www.atari.com/terms-of-use/ 71389 characters
+OK Atari Trackers Policy https://www.atari.com/terms-of-use/# 71389 characters
+OK Atari Privacy Policy https://www.atari.com/privacy-policy/ 28676 characters
+OK Asturias paraiso ciclista Privacy Policy https://asturiasparaisociclista.com/privacidad/politica-de-privacidad/ 17923 characters
+OK Asturias paraiso ciclista Legal Information https://asturiasparaisociclista.com/privacidad/aviso-legal/ 11196 characters
+OK Asturias paraiso ciclista Trackers Policy https://asturiasparaisociclista.com/privacidad/politica-de-cookies/ 20204 characters
+OK Aternos Terms of Service https://aternos.gmbh/en/aternos/terms 10916 characters
+OK Aternos Privacy Policy https://aternos.gmbh/en/aternos/privacy 8761 characters
+OK Atlanticrecords Terms of Service https://www.atlanticrecords.com/terms-of-use 60094 characters
+OK Athena secret tarot reading Terms of Service https://www.athena-medium.com/legal-terms/ 32931 characters
+OK Athena secret tarot reading Privacy Policy https://www.athena-medium.com/privacy/ 36318 characters
+OK Atlanticrecords Trackers Policy https://www.wminewmedia.com/cookies-policy/ 9313 characters
+OK Atlanta journal constitution Terms of Service https://www.ajc.com/visitor-agreement/ 190 characters
+OK Atlanta journal constitution Privacy Policy https://www.ajc.com/privacy-policy/ 190 characters
+OK Atlanticrecords Privacy Policy https://www.atlanticrecords.com/privacy-policy/ 62697 characters
+FAIL B Atexto Privacy Policy fetch https://www.atexto.com/legal
+OK Atlas vpn Privacy Policy https://atlasvpn.com/privacy-policy 6293 characters
+OK Atlassian Trackers Policy https://www.atlassian.com/legal/cookies 18422 characters
+OK Atos Legal Information https://atos.net/en/privacy 31829 characters
+FAIL C Atlassian Copyright Claims Policy extract https://trello.com/legal/dmca
+OK Atos Terms of Service https://atos.net/en/terms-of-use 39529 characters
+OK Atlassian Privacy Policy https://www.atlassian.com/legal/privacy-policy 81245 characters
+OK Atlas vpn Terms of Service https://atlasvpn.com/terms-of-service 59393 characters
+OK Atlassian Terms of Service https://www.atlassian.com/legal/cloud-terms-of-service 62935 characters
+OK Atlassian Merged https://www.atlassian.com/legal/cloud-terms-of-service 62935 characters
+OK Atlas obscura Trackers Policy https://www.atlasobscura.com/cookies 18533 characters
+OK Atlas obscura Terms of Service https://www.atlasobscura.com/terms 24628 characters
+OK Atlas obscura Legal Information https://www.atlasobscura.com/privacy 30992 characters
+OK Atlas of living australia Privacy Policy https://www.ala.org.au/who-we-are/terms-of-use/privacy-policy/ 20986 characters
+OK Atlas of living australia Terms of Service https://www.ala.org.au/who-we-are/terms-of-use/ 28198 characters
+FAIL B Attain by aetna Terms of Service fetch https://www.attainbyaetna.com/terms.html
+FAIL B Attain by aetna Privacy Policy fetch https://www.attainbyaetna.com/privacy.html
+OK Auberge du jeu General Conditions of Sale https://www.aubergedujeu.ch/politique-de-confidentialite/ 13801 characters
+OK Auberge du jeu Privacy Policy https://aubergedujeu.ch/politique-de-confidentialite/ 13801 characters
+FAIL B Att promotions Terms of Service fetch https://www.attpromotions.com/terms-and-conditions/
+FAIL B Att promotions Privacy Policy fetch https://www.attpromotions.com/privacy-policy/
+OK Atlas networks Terms of Service https://gigabit.io/customers/tv-services-agreement 33622 characters
+FAIL B Attendify Terms of Service fetch https://attendify.com/terms_of_service/
+FAIL B Attendify Privacy Policy fetch https://attendify.com/privacy_policy/
+FAIL B Att Privacy Policy fetch http://about.att.com/sites/privacy_policy
+OK Audioboom Trackers Policy https://audioboom.com/about/cookies 10935 characters
+FAIL B Audacity Terms of Service fetch https://www.audacityteam.org/terms-of-service/
+FAIL B Audible Trackers Policy fetch https://www.amazon.com/gp/help/customer/display.html/?nodeId=201890250
+FAIL B Audible Privacy Policy fetch https://www.amazon.com/gp/help/customer/display.html/?nodeId=468496
+OK Audacity Legal Information https://www.audacityteam.org/about/desktop-privacy-notice/ 163 characters
+OK Audioboom Privacy Policy https://audioboom.com/about/privacy 18603 characters
+OK Audioboom Terms of Service https://audioboom.com/about/terms/3 35088 characters
+FAIL B Attackernet Privacy Policy fetch https://attacker.net/terms
+OK Audible Terms of Service https://www.audible.com/legal/conditions-of-use 16540 characters
+OK Att Acceptable Use Policy https://www.att.com/legal/terms.aup.html 16489 characters
+OK Att Terms of Service https://www.att.com/legal/terms.internetAttTermsOfService.html 308228 characters
+FAIL B Audm Privacy Policy fetch https://audm.com/privacy-policy
+FAIL B Audm Terms of Service fetch https://audm.com/terms-of-service
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+OK Audius Terms of Service https://audius.co/documents/TermsOfUse.pdf 118289 characters
+OK Audius Privacy Policy https://audius.co/documents/PrivacyPolicy.pdf 25443 characters
+OK Audiobookstorecom General Conditions of Sale https://audiobookstore.com/return-policy.aspx 10055 characters
+FAIL B Audiogon Copyright Claims Policy fetch https://support.audiogon.com/hc/en-us/articles/360017516112-DMCA-Contact
+FAIL B Audiogon Privacy Policy fetch https://support.audiogon.com/hc/en-us/articles/360017799711
+FAIL B Audiogon Terms of Service fetch https://support.audiogon.com/hc/en-us/articles/360017516092-Terms-of-Use
+FAIL B Audiogon Policy fetch https://support.audiogon.com/hc/en-us/articles/360017799751-Flagging-Policy
+OK Audiobookstorecom Privacy Policy https://audiobookstore.com/privacy-policy.aspx 63748 characters
+OK Audioeye Terms of Service https://www.audioeye.com/terms-of-service 102542 characters
+OK Audiobookstorecom Terms of Service https://audiobookstore.com/terms-conditions.aspx 63748 characters
+OK Audioeye Privacy Policy https://www.audioeye.com/privacy-policy 78627 characters
+OK Audiotool Terms of Service https://www.audiotool.com/terms 30504 characters
+OK August home Privacy Policy https://august.com/pages/privacy-policy 54209 characters
+OK Aurora store Privacy Policy https://gitlab.com/AuroraOSS/AuroraStore/-/raw/master/POLICY.md 3835 characters
+OK Aura technologies Privacy Policy https://aura.company/privacy-policy/ 17513 characters
+OK August home Trackers Policy https://august.com/pages/cookie-policy 21471 characters
+OK August home Terms of Service https://august.com/pages/end-user-agreement 49591 characters
+OK Aura technologies Terms of Service https://aura.company/terms-and-conditions/ 12597 characters
+OK August home General Conditions of Sale https://august.com/pages/warranty 27331 characters
+OK Aurovia Privacy Policy https://www.aurovia.com/curensee/privacy-policy/ 11811 characters
+OK Audiomack Terms of Service https://audiomack.com/about/terms-of-service 3860 characters
+OK Audiomack Privacy Policy https://audiomack.com/about/privacy-policy 3858 characters
+FAIL B Australian broadcasting corporation Privacy Policy fetch https://help.abc.net.au/hc/en-us/articles/360001154976
+FAIL B Australian broadcasting corporation Terms of Service fetch https://help.abc.net.au/hc/en-us/articles/360001548096
+OK Aura Privacy Policy https://www.aura.com/legal/privacy-policy 48695 characters
+FAIL B Aura Terms of Service fetch https://figleaf.com/terms-of-service/
+OK Audkit Terms of Service https://www.audkit.com/terms-conditions.html 5574 characters
+OK Audkit General Conditions of Sale https://www.audkit.com/refund-policy.html 7356 characters
+FAIL C Australian broadcasting corporation Corporate Social Responsibility extract http://about.abc.net.au/accessibility-statement/
+OK Austnet chat network Acceptable Use Policy https://www.austnet.org/aup.php 5720 characters
+OK Australian financial review Terms of Service https://www.afr.com/subscription-terms-and-conditions 36868 characters
+OK Australian institute of company directors Privacy Policy https://www.aicd.com.au/about-aicd/terms-conditions/privacy-policy.html 30193 characters
+OK Australian financial review Privacy Policy https://www.afr.com/privacy-policy 246 characters
+OK Australian institute of company directors Terms of Service https://www.aicd.com.au/about-aicd/terms-conditions.html 75864 characters
+OK Australia post Privacy Policy https://auspost.com.au/privacy 2568 characters
+OK Australia post Terms of Service https://auspost.com.au/terms-conditions/mypost-account-terms-of-use 21544 characters
+OK Australian digital health agency Terms of Service https://www.digitalhealth.gov.au/about-us/policies-privacy-and-reporting/terms-of-use 34090 characters
+OK Australian digital health agency Privacy Policy https://www.digitalhealth.gov.au/about-us/policies-privacy-and-reporting/privacy-policy 54665 characters
+OK Australian red cross lifeblood Privacy Policy https://my.donateblood.com.au/app/answers/detail/a_id/1363 21304 characters
+OK Australian red cross lifeblood Terms of Service https://www.lifeblood.com.au/terms-conditions 70211 characters
+FAIL B Authorea Privacy Policy fetch https://authorea.com/terms
+OK Auth0 Privacy Policy https://auth0.com/privacy/ 83134 characters
+FAIL B Authy twilio Terms of Service fetch https://www.twilio.com/legal/pay-terms
+Warning: TT: undefined function: 32
+Warning: fetchStandardFontData: failed to fetch file "FoxitSans.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+OK Australian open Terms of Service https://www.tennis.com.au/wp-content/uploads/2021/02/Virtual-Hub-Conditions-of-Use-FINAL-JR02.02.21.pdf 8942 characters
+OK Authy twilio Legal Information https://www.twilio.com/legal/privacy/authy 106259 characters
+OK Authy twilio Privacy Policy https://www.twilio.com/legal/privacy 106259 characters
+OK Australian open Privacy Policy https://www.tennis.com.au/privacy 40967 characters
+Warning: fetchStandardFontData: failed to fetch file "FoxitSerif.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: fetchStandardFontData: failed to fetch file "FoxitSans.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+OK Australian reptile park Privacy Policy https://www.reptilepark.com.au/wp-content/uploads/2021/11/ARP-Privacy-Policy-2021.pdf 6709 characters
+OK Auth0 Terms of Service https://auth0.com/web-terms/ 33000 characters
+OK Authy twilio Trackers Policy https://www.twilio.com/legal/privacy/cookies 106259 characters
+OK Autism forums Terms of Service https://www.autismforums.com/help/terms/ 5948 characters
+OK Autism forums Privacy Policy https://www.autismforums.com/help/privacy-policy/ 7923 characters
+OK Autism speaks Privacy Policy https://www.autismspeaks.org/privacy-policy 31268 characters
+OK Autism science foundation Privacy Policy https://autismsciencefoundation.org/privacy-policy/ 9337 characters
+FAIL B Autism housing network Privacy Policy fetch https://www.autismhousingnetwork.org/privacy-policy/
+OK Autism science foundation Terms of Service https://autismsciencefoundation.org/terms-of-use/ 12901 characters
+OK Autism housing network Terms of Service https://www.autismhousingnetwork.org/terms/ 47371 characters
+OK Autism products General Conditions of Sale https://www.autism-products.com/refund_returns/ 28526 characters
+OK Autism speaks Terms of Service https://guide.autismspeaks.org/terms 56031 characters
+OK Autism products Privacy Policy https://www.autism-products.com/privacy-policy/ 30801 characters
+OK Autism products Terms of Service https://www.autism-products.com/terms-conditions/ 35213 characters
+OK Autismdate Privacy Policy https://www.autismdate.com/privacy_policy 5467 characters
+OK Autistici Privacy Policy https://www.autistici.org/who/privacy-policy.en 22045 characters
+OK Autismdate Terms of Service https://www.autismdate.com/page?id=20 8876 characters
+OK Auto accident team Terms of Service https://autoaccidentteam.com/terms-of-use 17670 characters
+OK Autistic self advocacy network Privacy Policy https://autisticadvocacy.org/privacy-policy/ 5779 characters
+OK Auto accident team Privacy Policy https://autoaccidentteam.com/privacy-policy 29013 characters
+OK Auto loan express Privacy Policy https://autoloanexpress.co/privacy.php 39346 characters
+OK Auto loan express Terms of Service https://autoloanexpress.co/terms.php 59264 characters
+FAIL B Autodesk Privacy Policy fetch https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement
+OK Auto trader Terms of Service https://www.autotrader.co.uk/terms-of-use 18672 characters
+FAIL B Autodesk Terms of Service fetch https://www.autodesk.com/company/legal-notices-trademarks/access-use/website-terms-of-use
+OK Auto trader Trackers Policy https://www.autotrader.co.uk/cookie-policy 42159 characters
+OK Auto trader Legal Information https://www.autotrader.co.uk/privacy-notice 59935 characters
+OK Autoavenue Privacy Policy https://autoavenue.net/privacy_c.php 13779 characters
+OK Autoavenue Terms of Service https://autoavenue.net/terms_c.php 18902 characters
+OK Autism research institute Privacy Policy https://autism.org/privacy/ 23848 characters
+OK Autocode Terms of Service https://autocode.com/terms-of-use/ 394 characters
+OK Autocode Privacy Policy https://autocode.com/dpa/ 394 characters
+FAIL B Autoscout24 Terms of Service fetch https://www.autoscout24.ch/fr/content/conditions-generales
+OK Autoevolution Terms of Service https://www.autoevolution.com/static/terms.html 21355 characters
+OK Autoevolution Trackers Policy https://www.autoevolution.com/static/cookies.html 14433 characters
+OK Autoevolution Privacy Policy https://www.autoevolution.com/static/privacy.html 27227 characters
+FAIL C Autoinsurerquote Privacy Policy extract https://autoinsurerquote.com/privacy-policy/
+OK Autoinsurerquote Terms of Service https://autoinsurerquote.com/terms-conditions/ 11541 characters
+OK Autoscout24 Privacy Policy https://guide.autoscout24.ch/fr/declaration-de-protection-des-donnees/ 4254 characters
+OK Auttaja Privacy Policy https://app.termly.io/document/privacy-policy/140d203f-604d-4619-a7da-9f61799a62a1 41 characters
+OK Autohotkeycom Terms of Service https://www.autohotkey.com/boards/ucp.php?mode=register 2216 characters
+FAIL B Available Privacy Policy fetch https://www.aveneusa.com/customer-support/avene-privacy-policy/
+FAIL B Available Terms of Service fetch https://www.aveneusa.com/customer-support/terms-conditions/
+OK Avast Acceptable Use Policy https://www.avast.com/acceptable-use-policy 38215 characters
+OK Avalon north creek Privacy Policy https://www.avaloncommunities.com/privacy-policy/ 30919 characters
+OK Avalon north creek Trackers Policy https://www.avaloncommunities.com/cookie-policy/ 10945 characters
+OK Avalon north creek Legal Information https://www.avaloncommunities.com/us-state-privacy-notice/ 52330 characters
+OK Avalon north creek Terms of Service https://www.avaloncommunities.com/terms-of-use/ 57446 characters
+OK Avast Privacy Policy https://www.avast.com/privacy-policy 83128 characters
+OK Avaaz Privacy Policy https://secure.avaaz.org/en/privacy/ 47831 characters
+OK Avast Terms of Service https://www.avast.com/eula 125402 characters
+OK Aventon Privacy Policy https://www.aventon.com/pages/privacy-policy 86374 characters
+OK Aventon Terms of Service https://www.aventon.com/pages/privacy-policy 86374 characters
+FAIL C Avrotros Privacy Policy extract https://www.avrotros.nl/privacy/privacy/
+OK Avs video editor Privacy Policy https://www.avs4you.com/privacy.aspx 38762 characters
+OK Avoidthehack Privacy Policy https://avoidthehack.com/privacy-policy 7689 characters
+OK Avocado mattress General Conditions of Sale https://help.avocadogreenmattress.com/en/articles/6641437-what-is-avocado-s-return-policy 11886 characters
+FAIL B Avoidthehack Trackers Policy fetch https://avoidthehack.com/cookies
+OK Avocado mattress Terms of Service https://www.avocadogreenmattress.com/pages/terms 44420 characters
+OK Avocado mattress Privacy Policy https://www.avocadogreenmattress.com/pages/privacy 31982 characters
+OK Avs video editor Terms of Service https://www.avs4you.com/license-agreement.aspx 27457 characters
+OK Avoidthehack Terms of Service https://avoidthehack.com/tos 7689 characters
+OK Avon Privacy Policy https://www.avon.com/information/privacy-statement.html 46235 characters
+OK Avon Terms of Service https://www.avon.com/information/conditions-of-use.html 41235 characters
+FAIL B Awesomesauce software Privacy Policy fetch https://awesomesauce.software/privacy
+OK Avtest Terms of Service https://www.av-test.org/en/contact/terms-and-conditions 11448 characters
+FAIL B Awardspring Privacy Policy fetch https://www.awardspring.com/privacy
+FAIL B Awardspring Terms of Service fetch https://www.awardspring.com/service-description
+OK Avg security Privacy Policy https://www.avg.com/en-ww/privacy 64707 characters
+OK Avg security Terms of Service https://www.avg.com/en-us/eula 96582 characters
