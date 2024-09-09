@@ -1398,3 +1398,267 @@ FAIL B Awardspring Privacy Policy fetch https://www.awardspring.com/privacy
 FAIL B Awardspring Terms of Service fetch https://www.awardspring.com/service-description
 OK Avg security Privacy Policy https://www.avg.com/en-ww/privacy 64707 characters
 OK Avg security Terms of Service https://www.avg.com/en-us/eula 96582 characters
+FAIL B Avsforum Privacy Policy fetch https://www.avsforum.com/help/privacy
+FAIL B Avsforum Terms of Service fetch https://www.avsforum.com/help/terms/
+FAIL B Axiom banking Privacy Policy fetch https://axiombank.wpengine.com/wp-content/uploads/2022/02/Axiom-Bank-Privacy-Policy.pdf
+OK Axa Terms of Service https://www.axa.co.uk/terms-and-conditions/ 62725 characters
+OK Axa Trackers Policy https://www.axa.com/en/page/cookie-policy 1299 characters
+OK Axa Privacy Policy https://www.axa.com/en/page/privacy-policy 7684 characters
+FAIL C Axie infinity Privacy Policy extract https://axieinfinity.com/privacy-policy/
+FAIL C Axie infinity Terms of Service extract https://axieinfinity.com/terms
+OK Awesomescreenshot Privacy Policy https://www.awesomescreenshot.com/privacy 14680 characters
+OK Awesomescreenshot Terms of Service https://www.awesomescreenshot.com/privacy/terms.html 24533 characters
+OK Axiom banking Terms of Service https://www.axiombanking.com/terms-and-conditions 9894 characters
+OK Axel springer se Privacy Policy https://www.axelspringer.com/en/data-and-privacy 18573 characters
+OK Axiom space Terms of Service https://www.axiomspace.com/terms-and-conditions 45072 characters
+OK Axiom space Privacy Policy https://www.axiomspace.com/privacy-policy 46936 characters
+FAIL B Azirevpn Terms of Service fetch https://www.azirevpn.com/terms-of-service
+FAIL B Azirevpn Trackers Policy fetch https://www.azirevpn.com/cookies
+FAIL C Azirevpn Privacy Policy extract https://www.azirevpn.com/privacy
+OK Azerion Privacy Policy https://azerion.com/business/privacy.html 383108 characters
+OK Ayn rand institute Privacy Policy https://aynrand.org/privacy-policy/ 29162 characters
+OK Ayn rand institute Terms of Service https://aynrand.org/terms-and-conditions/ 29218 characters
+FAIL B Axur Privacy Policy fetch https://axur.com/en/politica-de-privacidade/
+FAIL B Azzure media Terms of Service fetch https://azzuremedia.net/terms.html
+FAIL B Azzure media Privacy Policy fetch https://azzuremedia.net/privacy.html
+Warning: Bad value, for custom key "AAPL:Keywords", in Info: .
+OK B12 Privacy Policy https://cdn.b12.io/client_media/dmdju/2a2cd5ca-4fd4-11e8-b1b5-0242ac110002-Privacy_Policy.pdf 17890 characters
+OK B2b plastics Privacy Policy https://b2bplastics.com/privacy 5750 characters
+OK B12 Terms of Service https://www.b12.io/static-assets/docs/terms-of-service-03-01-2021.pdf 37796 characters
+Warning: fetchStandardFontData: failed to fetch file "FoxitSerif.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: TT: undefined function: 32
+Warning: TT: undefined function: 32
+Warning: fetchStandardFontData: failed to fetch file "FoxitSansBold.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: fetchStandardFontData: failed to fetch file "FoxitSans.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+OK Back4app Terms of Service https://www.back4app.com/terms-of-service.pdf 42536 characters
+OK Ayetstudios gmbh Privacy Policy https://www.ayetstudios.com/PrivacyPolicy/ 24640 characters
+Warning: Bad value, for custom key "AAPL:Keywords", in Info: .
+OK Back4app Privacy Policy https://www.back4app.com/privacy.pdf 43784 characters
+OK Ayetstudios gmbh Terms of Service https://www.ayetstudios.com/publisher-terms 51038 characters
+OK Babbar Privacy Policy https://www.babbar.tech/terms/ 52752 characters
+OK Backup4all Terms of Service https://www.backup4all.com/terms-of-use.html 13064 characters
+OK Backblaze Terms of Service https://www.backblaze.com/company/terms.html 25879 characters
+OK Backup4all Legal Information https://www.backup4all.com/support-policy.html 8723 characters
+OK Backup4all Privacy Policy https://www.backup4all.com/privacy-policy.html 25740 characters
+OK Baczekme Privacy Policy https://invidious.baczek.me/privacy 4118 characters
+OK Backblaze Privacy Policy https://www.backblaze.com/company/dpa.html 74479 characters
+OK Bad credit loans Terms of Service https://www.badcreditloans.com/terms-of-use/ 44415 characters
+OK Bad credit loans Privacy Policy https://www.badcreditloans.com/privacy-policy/ 27447 characters
+OK Badoo Terms of Service https://badoo.com/terms/ 137 characters
+OK Badoo Privacy Policy https://badoo.com/privacy/ 137 characters
+OK Bain  company Trackers Policy https://www.bain.com/about/cookie-policy/ 45600 characters
+OK Backloggd Privacy Policy https://www.backloggd.com/about/privacy/ 6595 characters
+OK Bad ink studios General Conditions of Sale https://badinkstudios.com/shipping-returns 2011 characters
+OK Bad ink studios Privacy Policy https://badinkstudios.com/privacy-policy 15858 characters
+OK Bain  company Terms of Service https://www.bain.com/about/terms/ 59071 characters
+OK Bain  company Privacy Policy https://www.bain.com/about/privacy/ 65583 characters
+FAIL C Baidu tieba Terms of Service extract https://tieba.baidu.com/tb/eula.html
+FAIL C Baidu tieba Privacy Policy extract https://tieba.baidu.com/tb/cms/tieba-fe/tieba_promise.html
+OK Backloggd Terms of Service https://backloggd.com/about/terms-of-service/ 4932 characters
+OK Bakashots Terms of Service https://bakashots.me/ToS.php 8109 characters
+OK Baker hughes Legal Information https://www.bakerhughes.com/privacy 133602 characters
+OK Baisseleswatts Terms of Service https://www.baisseleswatts.fr/conditions-generales-utilisation 12784 characters
+OK Baisseleswatts Trackers Policy https://www.baisseleswatts.fr/gestion-des-cookies 22172 characters
+OK Baisseleswatts Privacy Policy https://www.baisseleswatts.fr/politique-de-confidentialite 19533 characters
+OK Balance forecasting Terms of Service https://balanceforecastingapp.com/Terms 61 characters
+OK Balance forecasting Privacy Policy https://balanceforecastingapp.com/Privacy 61 characters
+OK Baker hughes Terms of Service https://www.bakerhughes.com/terms 128856 characters
+OK Badgr Privacy Policy https://info.badgr.com/privacy-policy.html 26450 characters
+OK Badgr Terms of Service https://info.badgr.com/terms-of-service.html 62464 characters
+OK Bambu lab Privacy Policy https://bambulab.com/en/policies/privacy 48028 characters
+OK Bambu lab Trackers Policy https://bambulab.com/en/policies/cookie-policy 12274 characters
+OK Balance of nature Terms of Service https://www.balanceofnature.com/terms-of-service 27009 characters
+OK Ballotpedia Legal Information https://ballotpedia.org/Ballotpedia:General_disclaimer 44359 characters
+OK Ballotpedia Privacy Policy https://ballotpedia.org/Ballotpedia:Privacy_policy 44516 characters
+OK Bambu lab Terms of Service https://bambulab.com/en/policies/terms 25258 characters
+OK Balance of nature Privacy Policy https://www.balanceofnature.com/privacy-policy 39861 characters
+OK Bananaticcom Privacy Policy https://www.bananatic.com/privacy-policy 8208 characters
+OK Baidu Terms of Service https://passport.baidu.com/static/passpc-account/html/protocal.html 121 characters
+OK Bananaticcom Terms of Service https://www.bananatic.com/terms-of-service 40094 characters
+FAIL B Baidu Privacy Policy fetch https://usa.baidu.com/privacy/
+OK Baidu Copyright Claims Policy https://www.baidu.com/duty/copyright.html 1200 characters
+FAIL B Baidu Legal Information fetch https://ir.baidu.com/disclaimer
+OK Bandai namco entertainment europe Privacy Policy https://en.bandainamcoent.eu/privacy-policy 33409 characters
+OK Balena Terms of Service https://www.balena.io/terms-of-service 15843 characters
+OK Balena Miscellaneous Agreement https://www.balena.io/master-agreement 16148 characters
+OK Balena Privacy Policy https://www.balena.io/privacy-policy 28095 characters
+OK Bandcamp Copyright Claims Policy https://bandcamp.com/copyright 8595 characters
+OK Bandcamp Terms of Service https://bandcamp.com/terms_of_use 53234 characters
+OK Bandcamp Privacy Policy https://www.bandcamp.com/privacy 23436 characters
+OK Banbye Trackers Policy https://banbye.pl/polityka-cookies 24 characters
+OK Banbye Privacy Policy https://banbye.pl/polityka-prywatnosci 24 characters
+OK Banbye Legal Information https://banbye.pl/regulamin 24 characters
+OK Bandai namco entertainment inc Privacy Policy https://www.bandainamcoent.co.jp/info/privacy/ 4993 characters
+OK Bandai namco entertainment inc Trackers Policy https://legal.bandainamcoent.co.jp/privacy/cookies-bandainamcoent-official 2084 characters
+OK Bandai namco entertainment inc Terms of Service https://www.bandainamcoent.co.jp/info/ 4921 characters
+OK Bankbazaar Privacy Policy https://www.bankbazaar.com/privacy-policy.html 150 characters
+OK Bankbazaar Terms of Service https://www.bankbazaar.com/conditionsofuse.html 150 characters
+OK Bandirun Privacy Policy http://bandirun.com/index.php?view=privacypolicy 4935 characters
+OK Banggood Privacy Policy https://fr.banggood.com/help_center/question_category.html?catid=196 10202 characters
+FAIL C Bandlab Privacy Policy extract https://blog.bandlab.com/privacy-policy/
+FAIL C Bandlab Terms of Service extract https://blog.bandlab.com/terms-of-use/
+FAIL B Banger merch General Conditions of Sale fetch https://bangermerch.com/pages/return-shipping-policy
+FAIL C Banksouth Privacy Policy extract https://banksouth.com/help/privacy-and-security/
+FAIL B Bankless times Terms of Service fetch https://www.banklesstimes.com/our-editorial-policy/
+Warning: fetchStandardFontData: failed to fetch file "FoxitSans.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: fetchStandardFontData: failed to fetch file "FoxitSansBold.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+Warning: fetchStandardFontData: failed to fetch file "FoxitSansItalic.pfb" with "UnknownErrorException: The standard font "baseUrl" parameter must be specified, ensure that the "standardFontDataUrl" API parameter is provided.".
+OK Banknorth Privacy Policy https://www.ibanknorth.com/wp-content/uploads/2018/07/privacy_policy.pdf 3914 characters
+OK Bankless times Privacy Policy https://www.banklesstimes.com/privacy-policy/ 27175 characters
+OK Banknorth Terms of Service https://www.ibanknorth.com/terms-of-use 5856 characters
+FAIL B Bankers life Legal Information fetch https://www.bankerslife.com/privacy-center/insurance-customer-privacy-notice/
+FAIL B Bankers life Privacy Policy fetch https://www.bankerslife.com/privacy-center/website-privacy-policy/
+FAIL B Bankers life Terms of Service fetch https://ecsso.bankerslife.com/blc/public/register
+FAIL B Bankofthewest Legal Information fetch https://www.bankofthewest.com/security-center/policies/online-privacy.html
+FAIL B Bankofthewest Terms of Service fetch https://www.bankofthewest.com/security-center/policies/terms-of-use.html
+FAIL B Bankofthewest Privacy Policy fetch https://www.bankofthewest.com/security-center/policies/-/media/Project/BOTW/DotCom/BOTW/PDF/policies/privacy-policy.pdf
+OK Bannernow Trackers Policy https://bannernow.com/cookies 3144 characters
+OK Bannernow Privacy Policy https://bannernow.com/privacy 18724 characters
+OK Bannernow Terms of Service https://bannernow.com/terms 17441 characters
+OK Barefoot books Privacy Policy https://www.barefootbooks.com/privacy-policy 29702 characters
+FAIL C Barack obama foundation Community Guidelines extract https://www.obama.org/terms-conditions/submission-terms/
+FAIL C Barack obama foundation Privacy Policy extract https://www.obama.org/privacy-policy/
+FAIL C Barack obama foundation Terms of Service extract https://www.obama.org/terms-conditions
+OK Banqu Legal Information https://banqu.co/support-policy/ 15736 characters
+FAIL B Banqu Terms of Service fetch https://banqu.co/terms-of-use/
+OK Barefoot books General Conditions of Sale https://www.barefootbooks.com/shipping-returns 32238 characters
+OK Barefoot books Terms of Service https://www.barefootbooks.com/terms-conditions 50050 characters
+OK Banqu Privacy Policy https://banqu.co/privacy-policy/ 36970 characters
+OK Bannedvideo Privacy Policy https://www.iubenda.com/privacy-policy/31079721/legal 808 characters
+OK Bargain hunt Privacy Policy https://www.bargainhunt.com/privacy-policy 21680 characters
+OK Barnes and noble Privacy Policy https://www.barnesandnoble.com/h/help/privacy-policy-complete 54596 characters
+FAIL B Bark Privacy Policy fetch https://www.bark.us/privacy/
+FAIL B Bark Terms of Service fetch https://www.bark.us/wp-content/uploads/2023/05/Bark-Terms_of_Service_20220718.pdf
+OK Barnes and noble Trackers Policy https://www.barnesandnoble.com/h/help/cookie-policy 5043 characters
+OK Barinsta Legal Information https://austinhuang.me/legal 3118 characters
+FAIL B Barinsta Privacy Policy fetch https://barinsta.austinhuang.me/en/latest/privacy
+FAIL B Barinsta Terms of Service fetch https://barinsta.austinhuang.me/en/latest/tos
+OK Barnes and noble Terms of Service https://www.barnesandnoble.com/h/help/about/terms-of-use 34283 characters
+OK Barklechat Terms of Service https://barkle.chat/@BanditCo/pages/TOS 114 characters
+OK Barracuda networks Privacy Policy https://www.barracuda.com/company/legal/trust-center/data-privacy/privacy-policy 61993 characters
+OK Barq Terms of Service https://barq.social/terms 11332 characters
+FAIL C Barracuda networks Terms of Service extract https://www.barracuda.com/company/legal/prd_trm
+OK Barq Privacy Policy https://barq.social/privacy 19965 characters
+OK Barstool sports Privacy Policy https://www.barstoolsports.com/privacy-policy 44555 characters
+OK Barstool sports Merged https://www.barstoolsports.com/privacy-policy 44555 characters
+OK Basedwin Privacy Policy https://based.win/privacy-policy-2/ 3436 characters
+OK Bartell assessments Trackers Policy https://bartellbartell.com/cookie-declaration/ 3447 characters
+OK Bartell assessments Privacy Policy https://bartellbartell.com/privacy/ 31581 characters
+OK Bashws Terms of Service https://bash.ws/terms 4555 characters
+OK Bashws Privacy Policy https://bash.ws/privacy 11538 characters
+OK Bastian allgeier Privacy Policy https://bastianallgeier.com/privacy 2138 characters
+OK Battlefy Terms of Service https://battlefy.com/policies/terms-of-service 74 characters
+OK Battlefy Privacy Policy https://battlefy.com/policies/privacy-policy 74 characters
+OK Basistech Terms of Service https://www.basistech.com/terms-of-use/ 19619 characters
+OK Basistech Privacy Policy https://www.basistech.com/privacy-policy/ 20531 characters
+OK Bath planet Privacy Policy https://www.bathplanet.com/privacy-policy 53284 characters
+OK Bausch Legal Information https://www.bauschhealth.com/terms 40174 characters
+FAIL B Bayer corporation Terms of Service fetch https://www.bayer.com/en/conditions-of-use
+FAIL B Bayer corporation Privacy Policy fetch https://www.bayer.com/en/privacy-statement
+OK Battlevision wrap Terms of Service https://getwraparounds.com/Terms-and-Conditions 27984 characters
+OK Bauer publishing Privacy Policy https://profile.bauerpublishing.com/privacy 41298 characters
+FAIL B Bausch Privacy Policy fetch https://www.bausch.com/privacy
+OK Bauer publishing Terms of Service https://profile.bauerpublishing.com/terms-of-use 63438 characters
+OK Battlevision wrap Privacy Policy https://getwraparounds.com/Privacy-Policy 27638 characters
+OK Battle for the net Privacy Policy https://www.battleforthenet.com/privacy 5909 characters
+FAIL B Bayfiles Terms of Service fetch https://bayfiles.com/terms
+OK Bazaarvoice Privacy Policy https://www.bazaarvoice.com/legal/privacy-policy 56413 characters
+OK Bazaarvoice Terms of Service https://www.bazaarvoice.com/legal/terms-of-use/ 30175 characters
+OK Bbbserver Privacy Policy https://bbbserver.de/datenschutz/ 44458 characters
+OK Bbb national programs Privacy Policy https://bbbprograms.org/privacy-policy 48509 characters
+OK Bbb national programs Terms of Service https://bbbprograms.org/terms-of-use 24802 characters
+OK Baybus Terms of Service https://www.baybus.co.nz/legal/terms-of-use/ 11731 characters
+OK Bcowxyz Privacy Policy https://bcow.xyz/legal/privacy/ 1934 characters
+OK Bcowxyz Terms of Service https://bcow.xyz/legal/terms/ 1680 characters
+OK Bbva Trackers Policy https://www.bbva.com/en/cookies-policy/ 25204 characters
+OK Bbva Privacy Policy https://www.bbva.com/en/personal-data-protection-policy/ 27461 characters
+OK Bcgame Privacy Policy https://bcgame.sk/help/privacy 46 characters
+OK Bcgame Terms of Service https://bcgame.sk/help/terms-service? 46 characters
+OK Bbva Terms of Service https://www.bbva.com/en/legal-notice/ 35236 characters
+OK Bbc Trackers Policy http://www.bbc.com/usingthebbc/privacy-policy/ 32058 characters
+OK Bbc Terms of Service http://www.bbc.com/usingthebbc/terms-of-use/ 34905 characters
+OK Bc transit corporation Privacy Policy https://www.bctransit.com/privacy 20819 characters
+OK Bdsmtest Privacy Policy https://bdsmtest.org/privacy 467 characters
+OK Beacon crm Terms of Service https://www.beaconcrm.org/website-terms-of-use 29739 characters
+OK Beacon crm Trackers Policy https://www.beaconcrm.org/cookies 18844 characters
+OK Bdsmcafe Privacy Policy https://bdsmcafe.com/privacy-policy/ 14766 characters
+OK Beacon crm Privacy Policy https://www.beaconcrm.org/privacy 39860 characters
+OK Bdsmcafe Copyright Claims Policy https://bdsmcafe.com/copyright-dmca-contact-info/ 16497 characters
+OK Bear blog Privacy Policy https://github.com/HermanMartinus/bearblog/wiki/Privacy-Policy 7237 characters
+OK Bear blog Terms of Service https://github.com/HermanMartinus/bearblog/wiki/Terms-of-Service 7237 characters
+FAIL C Be the match Privacy Policy extract https://bethematch.org/privacy/
+FAIL C Be the match Terms of Service extract https://bethematch.org/terms-of-use/
+FAIL B Because trigger Privacy Policy fetch https://becausetrigger.ga/terms
+OK Beano Trackers Policy https://www.beano.com/cookie-policy 17069 characters
+OK Becovi Terms of Service https://www.becovi.com/terms.php 9217 characters
+OK Becovi Privacy Policy https://www.becovi.com/privacy.php 13816 characters
+OK Bearable Terms of Service https://bearable.app/terms-and-conditions/ 20813 characters
+FAIL B Bearlyai Privacy Policy fetch https://bearly.ai/privacy
+OK Bearable Privacy Policy https://bearable.app/privacy-policy/ 43720 characters
+FAIL B Bearlyai Terms of Service fetch https://bearly.ai/terms
+OK Beano Privacy Policy https://www.beano.com/privacy-policy 29323 characters
+OK Beano Terms of Service https://www.beano.com/terms-and-conditions 41622 characters
+FAIL B Becu Terms of Service fetch https://becu.org/-/media/Files/PDF/BECUTermsandConditions.pdf
+FAIL B Becu Privacy Policy fetch https://becu.org/security-and-privacy
+OK Bedrock learning Privacy Policy https://app.bedrocklearning.org/pages/privacy 27 characters
+FAIL C Beatstars Terms of Service extract https://www.beatstars.com/terms-of-service
+OK Beechers handmade cheese Privacy Policy https://www.beechershandmadecheese.com/privacy-policy 15977 characters
+FAIL B Beechers handmade cheese Terms of Service fetch https://www.beechershandmadecheese.com/terms-use
+OK Beebom Privacy Policy https://beebom.com/privacy-policy/ 20514 characters
+FAIL B Beaker browser Vulnerability Disclosure Policy fetch https://beakerbrowser.com/vuln-disclosure/
+FAIL B Beaker browser Frequently Asked Questions fetch https://docs.beakerbrowser.com/faq
+OK Beefy boys Privacy Policy https://beefyboys.win/about/privacy 701 characters
+OK Beefy boys Terms of Service https://beefyboys.win/about/tos 701 characters
+OK Beefy boys Copyright Claims Policy https://beefyboys.win/about/dmca 701 characters
+FAIL B Beenverified Privacy Policy fetch https://www.beenverified.com/faq/privacy
+FAIL B Beenverified Terms of Service fetch https://www.beenverified.com/faq/terms-conditions
+OK Beehaw Legal Information https://beehaw.org/legal 6896 characters
+OK Beem it Vulnerability Disclosure Policy https://www.beemit.com.au/terms 5339 characters
+OK Beem it Privacy Policy https://www.beemit.com.au/privacy 2750 characters
+OK Beepass Terms of Service https://beepassvpn.com/en/terms-of-service/ 30798 characters
+OK Beeper Privacy Policy https://www.beeper.com/privacy 5414 characters
+OK Beeper Terms of Service https://www.beeper.com/terms 24067 characters
+OK Beepass Privacy Policy https://beepassvpn.com/en/privacy-policy/ 18564 characters
+OK Behaviour interactive inc Privacy Policy https://www.bhvr.com/privacy-policy/ 37665 characters
+OK Before its news Privacy Policy https://beforeitsnews.com/v3/privacy/ 9284 characters
+OK Behaviour interactive inc Terms of Service https://www.bhvr.com/terms-of-use/ 72014 characters
+FAIL C Beget Privacy Policy extract https://beget.com/docs/en/privacy_policy.pdf
+FAIL C Beget Terms of Service extract https://beget.com/docs/en/agreement.pdf
+OK Before its news Terms of Service https://beforeitsnews.com/v3/terms/ 25939 characters
+FAIL B Behind the voice actors Terms of Service fetch https://www.behindthevoiceactors.com/terms-of-use/
+FAIL B Behind the voice actors Privacy Policy fetch https://www.behindthevoiceactors.com/privacy-policy/
+OK Befunky Terms of Service https://www.befunky.com/terms/ 26832 characters
+OK Befunky Privacy Policy https://www.befunky.com/privacy/ 30872 characters
+OK Belka vpn General Conditions of Sale https://drive.google.com/file/d/1EyZfmSnupY3myzR04WKiJylzQfWHcjM4/view 426 characters
+OK Belka vpn Privacy Policy https://drive.google.com/file/d/19VOX5Nczn5lWlF5f3I99PUcmCIRZQcxH/view?usp=sharing 454 characters
+OK Belkin Privacy Policy https://www.belkin.com/us/security/ 26024 characters
+OK Belka vpn Terms of Service https://drive.google.com/file/u/1/d/17Q2EBGAVlHvBY3hf7PysYhp0H-Cuc4HR 433 characters
+OK Bellamy studio Privacy Policy https://bellamystudio.com/privacy-policy 11070 characters
+FAIL B Belkin Terms of Service fetch https://www.belkin.com/us/end-user-license-agreement/
+OK Belletristica Other https://belletristica.com/en/about 5919 characters
+OK Belletristica Privacy Policy https://belletristica.com/en/privacy 9224 characters
+OK Bellevue college bulldog bistro in student housing Terms of Service https://www.bcfse.com/terms 28127 characters
+FAIL B Bellevue college Privacy Policy fetch https://www.bellevuecollege.edu/website/privacy/
+OK Bellevue college bulldog bistro in student housing Privacy Policy https://www.bcfse.com/privacy 54654 characters
+OK Bellsoft Privacy Policy https://bell-sw.com/privacy-policy/ 25670 characters
+OK Bellevue arts museum Privacy Policy https://www.bellevuearts.org/privacy-policy 20915 characters
+OK Benefithub Terms of Service https://www.benefithub.com/terms-and-conditions-global 50572 characters
+OK Benefithub Legal Information https://www.benefithub.com/ada-compliance 8014 characters
+OK Beneficial inhome care Privacy Policy http://bihc.biz/wp-content/uploads/2018/06/BIHC-complies-with-the-Health-Insurance-Portability-and-Accountability-Act.docx 10843 characters
+OK Benefithub Privacy Policy https://www.benefithub.com/privacy-policy-global 38832 characters
+OK Ben franklin transit Policy https://www.bft.org/customer-contact-policy/ 11176 characters
+OK Ben franklin transit Privacy Policy https://www.bft.org/privacy-policy/ 18309 characters
+OK Ben franklin transit Terms of Service https://www.bft.org/terms-of-use 15189 characters
+OK Benchmarkone Privacy Policy https://www.benchmarkone.com/privacy/ 10906 characters
+FAIL B Ben and holly Terms of Service fetch https://www.benandholly.tv/terms-and-conditions/
+FAIL B Ben and holly Privacy Policy fetch https://www.benandholly.tv/privacy-policy/
+FAIL B Ben and holly Trackers Policy fetch https://www.benandholly.tv/cookie-policy/
+FAIL C Benefitstoday Privacy Policy extract https://benefitstoday.info/page-privacy.php
+OK Bentley motors Privacy Policy https://www.bentleymotors.com/en/pages/privacy-policy.html 46606 characters
+OK Bensounds Terms of Service https://www.bensound.com/terms-and-conditions 31906 characters
+OK Bensounds Privacy Policy https://www.bensound.com/privacy-policy 5989 characters
+OK Bentley motors Terms of Service https://www.bentleymotors.com/en/pages/terms-and-conditions.html 16818 characters
+OK Bentkey Terms of Service https://www.bentkey.com/terms/ 992 characters
+OK Bentkey Privacy Policy https://www.bentkey.com/privacy/ 992 characters
+FAIL C Benefitstoday Terms of Service extract https://benefitstoday.info/page-terms.php
+FAIL B Bentley motors Trackers Policy fetch https://www.bentleymotors.com/en/pages/cookie-policy.html
