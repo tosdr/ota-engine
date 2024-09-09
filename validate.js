@@ -148,7 +148,7 @@ async function run (options) {
   await throttledPromises(async (serviceId) => {
     const service = serviceDeclarations[serviceId];
     return validate(serviceId, service, servicesTermsTypes);
-  }, servicesToValidate, 5, 20);
+  }, servicesToValidate, 20, 0);
   await stopHeadlessBrowser();
 }
 
