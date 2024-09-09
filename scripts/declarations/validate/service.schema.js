@@ -34,7 +34,7 @@ const schema = {
     documents: {
       type: 'object',
       properties: termsProperties(),
-      propertyNames: { enum: AVAILABLE_TYPES_NAME },
+      // propertyNames: { enum: AVAILABLE_TYPES_NAME },
     },
     importedFrom: {
       type: 'string',
