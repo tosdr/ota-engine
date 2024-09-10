@@ -15,8 +15,9 @@ createServer(async (req, res) => {
 
     console.log(options);
 
-    await track(options);
-    res.write('done');
+    const results = await track(options);
+
+    res.write(JSON.stringify(results));
     res.end();
   });
 }).listen(3000);

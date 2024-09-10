@@ -108,15 +108,15 @@ export default class Archivist extends events.EventEmitter {
 
     this.trackingQueue.concurrency = extractOnly ? MAX_PARALLEL_EXTRACTING : MAX_PARALLEL_TRACKING;
 
-    servicesIds.forEach(serviceId => {
-      this.services[serviceId].getTermsTypes().forEach(termsType => {
+    const results = Promise.all(servicesIds.map(async (serviceId) => {
+      return Promise.all(this.services[serviceId].getTermsTypes().map(async (termsType) => {
         if (termsTypes.length && !termsTypes.includes(termsType)) {
           return;
         }
 
-        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly });
-      });
-    });
+        return this.trackTermsChanges({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly });
+      }));
+    }));
 
     if (this.trackingQueue.length()) {
       await this.trackingQueue.drain();
@@ -125,6 +125,8 @@ export default class Archivist extends events.EventEmitter {
     await Promise.all([ stopHeadlessBrowser(), this.recorder.finalize() ]);
 
     this.emit('trackingCompleted', servicesIds.length, numberOfTerms, extractOnly);
+    
+    return results;
   }
 
   async trackTermsChanges({ terms, extractOnly = false }) {
@@ -140,7 +142,9 @@ export default class Archivist extends events.EventEmitter {
       return;
     }
 
-    return this.recordVersion(terms, extractOnly);
+    await this.recordVersion(terms, extractOnly);
+
+    return terms.sourceDocuments;
   }
 
   async fetchSourceDocuments(terms) {

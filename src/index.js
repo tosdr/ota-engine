@@ -73,9 +73,7 @@ export default async function track({ services, types, extractOnly, schedule }) 
   }
 
   if (!schedule) {
-    await archivist.track({ services, types });
-
-    return;
+    return archivist.track({ services, types });
   }
 
   const trackingSchedule = config.get('@opentermsarchive/engine.trackingSchedule');
