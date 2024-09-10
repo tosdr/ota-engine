@@ -99,6 +99,19 @@ export default class Archivist extends events.EventEmitter {
     });
   }
 
+  async crawl({ fetch, select }) {
+    await launchHeadlessBrowser();
+
+    console.log(fetch);
+    console.log(select);
+
+    const results = this.trackTermsChanges({ terms: { fetch, select }, extractOnly: false });
+
+    await stopHeadlessBrowser();
+
+    return results;
+  }
+
   async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false } = {}) {
     const numberOfTerms = Service.getNumberOfTerms(this.services, servicesIds, termsTypes);
 
