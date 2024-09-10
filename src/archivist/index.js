@@ -105,7 +105,19 @@ export default class Archivist extends events.EventEmitter {
     console.log(fetch);
     console.log(select);
 
-    const results = this.trackTermsChanges({ terms: { fetch, select }, extractOnly: false });
+    const results = this.trackTermsChanges({
+      terms: {
+        service: {
+          id: 'ephemeral'
+        },
+        sourceDocuments: [
+          {
+            location: fetch,
+            cssSelectors: [] // select
+          }
+        ]
+      }
+    });
 
     await stopHeadlessBrowser();
 
@@ -145,22 +157,23 @@ export default class Archivist extends events.EventEmitter {
   async trackTermsChanges({ terms, extractOnly = false }) {
     if (!extractOnly) {
       await this.fetchSourceDocuments(terms);
-      await this.recordSnapshots(terms);
+      // await this.recordSnapshots(terms);
     }
 
-    await this.loadSourceDocumentsFromSnapshots(terms);
+    // await this.loadSourceDocumentsFromSnapshots(terms);
 
     if (terms.sourceDocuments.filter(sourceDocument => !sourceDocument.content).length) {
       // If some source documents do not have associated snapshots, it is not possible to generate a fully valid version
       return;
     }
 
-    await this.recordVersion(terms, extractOnly);
+    // await this.recordVersion(terms, extractOnly);
 
     return terms.sourceDocuments;
   }
 
   async fetchSourceDocuments(terms) {
+    console.log('fetchSourceDocuments', terms);
     terms.fetchDate = new Date();
 
     const fetchDocumentErrors = [];
@@ -169,6 +182,7 @@ export default class Archivist extends events.EventEmitter {
       const { location: url, executeClientScripts, cssSelectors } = sourceDocument;
 
       try {
+        console.log('fetching', url, cssSelectors);
         const { mimeType, content } = await this.fetch({ url, executeClientScripts, cssSelectors });
 
         sourceDocument.content = content;
