@@ -27,8 +27,3 @@ git commit-graph write --reachable --changed-paths
 git rev-parse HEAD~5 > .git/shallow
 cd ../..
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
-source ~/.bashrc
-nvm install 20
-nvm use 20
-npm install
-npx ota track --services "Musi"
