@@ -54,8 +54,9 @@ export async function extractFromHTML(sourceDocument) {
     virtualConsole: new jsdom.VirtualConsole(),
   });
   const { document: webPageDOM } = jsdomInstance.window;
-
+  console.log('dom created');
   for (const filterFunction of serviceSpecificFilters) {
+    console.log('filter', filterFunction);
     try {
       /* eslint-disable no-await-in-loop */
       // We want this to be made in series
@@ -70,19 +71,19 @@ export async function extractFromHTML(sourceDocument) {
       throw new Error(`The filter function "${filterFunction.name}" failed: ${error}`);
     }
   }
-
+  console.log('removing');
   remove(webPageDOM, insignificantContentSelectors); // remove function works in place
-
+  console.log('calling select');
   const domFragment = select(webPageDOM, contentSelectors);
-
+  console.log('domFragment from select', domFragment);
   if (!domFragment.children.length) {
     throw new Error(`The provided selector "${contentSelectors}" has no match in the web page at '${location}'`);
   }
 
   convertRelativeURLsToAbsolute(domFragment, location);
-
+  console.log('removing scripts');
   domFragment.querySelectorAll('script, style').forEach(node => node.remove());
-
+  
   // clean code from common changing patterns - initially for Windstream
   domFragment.querySelectorAll('a[href*="/email-protection"]').forEach(node => {
     const newProtectedLink = webPageDOM.createElement('a');
@@ -126,7 +127,7 @@ export async function extractFromPDF({ location, content: pdfBuffer }) {
 
 function selectRange(webPageDOM, rangeSelector) {
   const { startBefore, startAfter, endBefore, endAfter } = rangeSelector;
-
+  console.log('selectRange', rangeSelector);
   const selection = webPageDOM.createRange();
   const startNode = webPageDOM.querySelector(startBefore || startAfter);
   const endNode = webPageDOM.querySelector(endBefore || endAfter);
@@ -159,7 +160,7 @@ export function convertRelativeURLsToAbsolute(webPageDOM, baseURL) {
 function remove(webPageDOM, insignificantContentSelectors) {
   const rangeSelections = [];
   const nodes = [];
-
+  console.log('removing', insignificantContentSelectors);
   [].concat(insignificantContentSelectors).forEach(selector => {
     if (typeof selector === 'object') {
       rangeSelections.push(selectRange(webPageDOM, selector));
@@ -175,7 +176,7 @@ function remove(webPageDOM, insignificantContentSelectors) {
 
 function select(webPageDOM, contentSelectors) {
   const result = webPageDOM.createDocumentFragment();
-
+  console.log('applying selectors', contentSelectors);
   [].concat(contentSelectors).forEach(selector => {
     if (typeof selector === 'object') {
       const rangeSelection = selectRange(webPageDOM, selector);
@@ -185,7 +186,7 @@ function select(webPageDOM, contentSelectors) {
       webPageDOM.querySelectorAll(selector).forEach(element => result.appendChild(element.cloneNode(true)));
     }
   });
-
+  console.log('done applying content selectors');
   return result;
 }
 

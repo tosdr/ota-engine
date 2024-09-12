@@ -105,7 +105,7 @@ export default class Archivist extends events.EventEmitter {
     console.log(fetch);
     console.log(select);
 
-    const sourceDocuments = this.trackTermsChanges({
+    const sourceDocuments = await this.trackTermsChanges({
       terms: {
         service: {
           id: 'ephemeral'
@@ -113,12 +113,12 @@ export default class Archivist extends events.EventEmitter {
         sourceDocuments: [
           {
             location: fetch,
-            cssSelectors: [] // select
+            contentSelectors: [ select ]
           }
         ]
       }
     });
-
+    console.log(sourceDocuments);
     await stopHeadlessBrowser();
     const results = await this.extractVersionContent(sourceDocuments);
     return results;
