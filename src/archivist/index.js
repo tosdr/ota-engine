@@ -1,7 +1,7 @@
 import events from 'events';
 
 import async from 'async';
-
+import showdown from 'showdown';
 import { InaccessibleContentError } from './errors.js';
 import extract, { ExtractDocumentError } from './extract/index.js';
 import fetch, { launchHeadlessBrowser, stopHeadlessBrowser, FetchDocumentError } from './fetcher/index.js';
@@ -121,7 +121,9 @@ export default class Archivist extends events.EventEmitter {
     console.log(sourceDocuments);
     await stopHeadlessBrowser();
     const results = await this.extractVersionContent(sourceDocuments);
-    return results;
+    const converter = new showdown.Converter();
+    const html      = converter.makeHtml(results);
+    return html;
   }
 
   async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false } = {}) {
