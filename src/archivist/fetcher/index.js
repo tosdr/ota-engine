@@ -29,6 +29,7 @@ export default async function fetch({
     waitForElementsTimeout = config.get('@opentermsarchive/engine.fetcher.waitForElementsTimeout'),
   } = {},
 }) {
+  console.log('fetch', url, executeClientScripts, cssSelectors, config);
   try {
     if (executeClientScripts) {
       return await fetchFullDom(url, cssSelectors, { navigationTimeout, language, waitForElementsTimeout });

@@ -70,6 +70,7 @@ export default class Git {
   }
 
   async log(options = []) {
+    console.log('git log', options);
     try {
       const logSummary = await this.git.log(options);
 
