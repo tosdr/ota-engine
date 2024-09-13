@@ -559,7 +559,7 @@ describe('GitRepository', () => {
               snapshotIds: [SNAPSHOT_ID],
             })));
 
-            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE);
+            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE, MIME_TYPE);
           });
 
           after(() => subject.removeAll());
@@ -582,7 +582,7 @@ describe('GitRepository', () => {
         let latestRecord;
 
         before(async () => {
-          latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE);
+          latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE, MIME_TYPE);
         });
 
         it('returns null', () => {
@@ -1088,7 +1088,7 @@ describe('GitRepository', () => {
               fetchDate: FETCH_DATE,
             })));
 
-            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE);
+            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE, MIME_TYPE);
           });
 
           after(() => subject.removeAll());
@@ -1120,7 +1120,7 @@ describe('GitRepository', () => {
               fetchDate: FETCH_DATE,
             })));
 
-            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE);
+            latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE, MIME_TYPE);
           });
 
           after(() => subject.removeAll());
@@ -1143,7 +1143,7 @@ describe('GitRepository', () => {
         let latestRecord;
 
         before(async () => {
-          latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE);
+          latestRecord = await subject.findLatest(SERVICE_PROVIDER_ID, TERMS_TYPE, MIME_TYPE);
         });
 
         it('returns null', () => {

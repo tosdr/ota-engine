@@ -99,13 +99,14 @@ export default class Archivist extends events.EventEmitter {
     });
   }
 
-  async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false } = {}) {
+  async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false, skipSnapshots = false, skipReadBack = false } = {}) {
+    console.log('start of track function');
     const numberOfTerms = Service.getNumberOfTerms(this.services, servicesIds, termsTypes);
 
     this.emit('trackingStarted', servicesIds.length, numberOfTerms, extractOnly);
 
     await Promise.all([ launchHeadlessBrowser(), this.recorder.initialize() ]);
-
+    console.log('launched');
     this.trackingQueue.concurrency = extractOnly ? MAX_PARALLEL_EXTRACTING : MAX_PARALLEL_TRACKING;
 
     servicesIds.forEach(serviceId => {
@@ -113,8 +114,8 @@ export default class Archivist extends events.EventEmitter {
         if (termsTypes.length && !termsTypes.includes(termsType)) {
           return;
         }
-
-        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly });
+        console.log('queueing job');
+        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly, skipSnapshots, skipReadBack });
       });
     });
 
@@ -127,13 +128,20 @@ export default class Archivist extends events.EventEmitter {
     this.emit('trackingCompleted', servicesIds.length, numberOfTerms, extractOnly);
   }
 
-  async trackTermsChanges({ terms, extractOnly = false }) {
+  async trackTermsChanges({ terms, extractOnly = false, skipSnapshots = false, skipReadBack = false }) {
     if (!extractOnly) {
+      console.log('terms before fetch', terms);
       await this.fetchSourceDocuments(terms);
-      await this.recordSnapshots(terms);
+      console.log('terms after fetch', terms);
+      if (!skipSnapshots) {
+        await this.recordSnapshots(terms);
+      }
+      // console.log('terms after record', terms);
     }
-
-    await this.loadSourceDocumentsFromSnapshots(terms);
+    console.log('outside extractOnly if statement', extractOnly)
+    if (!skipSnapshots && !skipReadBack) {
+      await this.loadSourceDocumentsFromSnapshots(terms);
+    }
 
     if (terms.sourceDocuments.filter(sourceDocument => !sourceDocument.content).length) {
       // If some source documents do not have associated snapshots, it is not possible to generate a fully valid version
@@ -172,6 +180,7 @@ export default class Archivist extends events.EventEmitter {
 
   loadSourceDocumentsFromSnapshots(terms) {
     return Promise.all(terms.sourceDocuments.map(async sourceDocument => {
+      console.log('loadSourceDocumentsFromSnapshots calling getLatestSnapshot')
       const snapshot = await this.recorder.getLatestSnapshot(terms, sourceDocument.id);
 
       if (!snapshot) { // This can happen if one of the source documents for a terms has not yet been fetched

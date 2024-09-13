@@ -40,6 +40,7 @@ export function toPersistence(record, snapshotIdentiferTemplate) {
     snapshotIdsMessage = `${MULTIPLE_SOURCE_DOCUMENTS_PREFIX.replace('%NUMBER', snapshotIds.length)}\n${snapshotIds.map(snapshotId => `- ${snapshotIdentiferTemplate.replace(SNAPSHOT_ID_MARKER, snapshotId)}`).join('\n')}`;
   }
 
+  console.log('datamapper toPersistence calling generateFilePath');
   const filePath = generateFilePath(serviceId, termsType, documentId, mimeType);
 
   return {
@@ -86,8 +87,8 @@ function generateFileName(termsType, documentId, extension) {
   return `${termsType}${documentId ? `${TERMS_TYPE_AND_DOCUMENT_ID_SEPARATOR}${documentId}` : ''}.${extension}`;
 }
 
-export function generateFilePath(serviceId, termsType, documentId, mimeType) {
-  console.log('generateFilePath', serviceId, termsType, documentId, mimeType);
+export function generateFilePath(serviceId, termsType, mimeType, documentId) {
+  console.log('generateFilePath', serviceId, termsType, mimeType, documentId);
   
   const extension = mime.getExtension(mimeType) || '*'; // If mime type is undefined, an asterisk is set as an extension. Used to match all files for the given service ID, terms type and document ID when mime type is unknown
 

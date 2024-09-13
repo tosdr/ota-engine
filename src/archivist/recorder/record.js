@@ -6,7 +6,7 @@
 export default class Record {
   #content;
 
-  static REQUIRED_PARAMS = Object.freeze([ 'serviceId', 'termsType', 'fetchDate', 'content' ]);
+  static REQUIRED_PARAMS = Object.freeze([ 'serviceId', 'termsType', 'mimeType', 'fetchDate', 'content' ]);
 
   constructor(params) {
     if (this.constructor == Record) {

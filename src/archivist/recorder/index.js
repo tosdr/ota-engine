@@ -1,3 +1,4 @@
+import e from 'express';
 import RepositoryFactory from './repositories/factory.js';
 import Snapshot from './snapshot.js';
 import Version from './version.js';
@@ -17,7 +18,18 @@ export default class Recorder {
   }
 
   getLatestSnapshot(terms, sourceDocumentId) {
-    return this.snapshotsRepository.findLatest(terms.service.id, terms.type, terms.hasMultipleSourceDocuments && sourceDocumentId);
+    let mimeType;
+    if (terms.hasMultipleSourceDocuments) {
+      terms.sourceDocumentsmap(sourceDocument => {
+        if (sourceDocument.id === sourceDocumentId) {
+          mimeType = sourceDocument.mimeType;
+        }
+      });
+    } else {
+      mimeType = terms.sourceDocuments[0].mimeType;
+    }
+    console.log('getLatestSnapshot calling findLatest', terms.sourceDocuments, mimeType);
+    return this.snapshotsRepository.findLatest(terms.service.id, terms.type, mimeType, terms.hasMultipleSourceDocuments && sourceDocumentId);
   }
 
   record(record) {

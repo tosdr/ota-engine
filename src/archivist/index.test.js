@@ -37,6 +37,7 @@ describe('Archivist', function () {
 
   const SERVICE_A_ID = 'service·A';
   const SERVICE_A_TYPE = 'Terms of Service';
+  const SERVICE_A_MIME_TYPE = 'text/html';
   const SERVICE_A_EXPECTED_SNAPSHOT_FILE_PATH = `${SNAPSHOTS_PATH}/${SERVICE_A_ID}/${SERVICE_A_TYPE}.html`;
   const SERVICE_A_EXPECTED_VERSION_FILE_PATH = `${VERSIONS_PATH}/${SERVICE_A_ID}/${SERVICE_A_TYPE}.md`;
   let serviceASnapshotExpectedContent;
@@ -159,8 +160,8 @@ describe('Archivist', function () {
             await app.initialize();
             await app.track({ services });
 
-            ({ id: originalSnapshotId } = await app.recorder.snapshotsRepository.findLatest(SERVICE_A_ID, SERVICE_A_TYPE));
-            ({ id: firstVersionId } = await app.recorder.versionsRepository.findLatest(SERVICE_A_ID, SERVICE_A_TYPE));
+            ({ id: originalSnapshotId } = await app.recorder.snapshotsRepository.findLatest(SERVICE_A_ID, SERVICE_A_TYPE, SERVICE_A_MIME_TYPE));
+            ({ id: firstVersionId } = await app.recorder.versionsRepository.findLatest(SERVICE_A_ID, SERVICE_A_TYPE, SERVICE_A_MIME_TYPE));
 
             serviceBCommits = await gitVersion.log({ file: SERVICE_B_EXPECTED_VERSION_FILE_PATH });
 

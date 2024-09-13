@@ -79,7 +79,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE,
               })));
 
-              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.snapshotsRepository.removeAll());
@@ -117,7 +117,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE_LATER,
               })));
 
-              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.snapshotsRepository.removeAll());
@@ -153,7 +153,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE_LATER,
               })));
 
-              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.snapshotsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.snapshotsRepository.removeAll());
@@ -213,7 +213,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE,
               })));
 
-              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.versionsRepository.removeAll());
@@ -251,7 +251,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE_LATER,
               })));
 
-              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.versionsRepository.removeAll());
@@ -291,7 +291,7 @@ describe('Recorder', () => {
                 fetchDate: FETCH_DATE_LATER,
               })));
 
-              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+              record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
             });
 
             after(() => recorder.versionsRepository.removeAll());
@@ -320,7 +320,7 @@ describe('Recorder', () => {
                   isExtractOnly: true,
                 })));
 
-                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
               });
 
               after(() => recorder.versionsRepository.removeAll());
@@ -359,7 +359,7 @@ describe('Recorder', () => {
                   isExtractOnly: true,
                 })));
 
-                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
               });
 
               after(() => recorder.versionsRepository.removeAll());
@@ -400,7 +400,7 @@ describe('Recorder', () => {
                   isExtractOnly: true,
                 })));
 
-                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE);
+                record = await recorder.versionsRepository.findLatest(SERVICE_ID, TYPE, MIME_TYPE);
               });
 
               after(() => recorder.versionsRepository.removeAll());

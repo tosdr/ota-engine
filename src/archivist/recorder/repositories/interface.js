@@ -42,10 +42,11 @@ class RepositoryInterface {
   *
   * @param {string} serviceId - Service ID of record to find
   * @param {string} termsType - Terms type of record to find
+  * @param {string} mimeType - mime type of the document e.g. 'text/html'
   * @param {string} [documentId] - Document ID of record to find. Used to identify the source in terms extracted from multiple source documents. Not necessary for terms with a single source document
   * @returns {Promise<Record>} Promise that will be resolved with the found record or an empty object if none match the given criteria
   */
-  async findLatest(serviceId, termsType, documentId) {
+  async findLatest(serviceId, termsType, mimeType, documentId) {
     throw new Error(`#findLatest method is not implemented in ${this.constructor.name}`);
   }
 

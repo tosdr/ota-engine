@@ -34,10 +34,10 @@ export default class GitRepository extends RepositoryInterface {
   }
 
   async save(record) {
-    const { serviceId, termsType, documentId, fetchDate } = record;
+    const { serviceId, termsType, mimeType, documentId, fetchDate } = record;
 
     if (record.isFirstRecord === undefined || record.isFirstRecord === null) {
-      record.isFirstRecord = !await this.#isTracked(serviceId, termsType, documentId);
+      record.isFirstRecord = !await this.#isTracked(serviceId, termsType, mimeType, documentId);
     }
 
     const { message, content, filePath: relativeFilePath } = await this.#toPersistence(record);
@@ -64,14 +64,16 @@ export default class GitRepository extends RepositoryInterface {
     return this.git.pushChanges();
   }
 
-  async findLatest(serviceId, termsType, documentId) {
-    const filePath = DataMapper.generateFilePath(serviceId, termsType, documentId);
+  async findLatest(serviceId, termsType, mimeType, documentId) {
+    console.log('findLatest calling generateFilePath', serviceId, termsType, mimeType, documentId);
+    const filePath = DataMapper.generateFilePath(serviceId, termsType, mimeType, documentId);
     const commit = await this.git.getCommit([filePath]);
 
     return this.#toDomain(commit);
   }
 
   async findByDate(serviceId, termsType, date, documentId) {
+    console.log('findByDate calling generateFilePath', serviceId, termsType, date, documentId);
     const filePath = DataMapper.generateFilePath(serviceId, termsType, documentId);
     const commit = await this.git.getCommit([ `--until=${date?.toISOString()}`, filePath ]);
 
@@ -105,6 +107,7 @@ export default class GitRepository extends RepositoryInterface {
   }
 
   async loadRecordContent(record) {
+    console.log('loadRecordContent calling generateFilePath', record);
     const relativeFilePath = DataMapper.generateFilePath(record.serviceId, record.termsType, record.documentId, record.mimeType);
 
     if (record.mimeType != mime.getType('pdf')) {
@@ -157,8 +160,9 @@ export default class GitRepository extends RepositoryInterface {
     }
   }
 
-  #isTracked(serviceId, termsType, documentId) {
-    return this.git.isTracked(`${this.path}/${DataMapper.generateFilePath(serviceId, termsType, documentId)}`);
+  #isTracked(serviceId, termsType, mimeType, documentId) {
+    console.log('isTracked calling generateFilePath', serviceId, termsType, mimeType, documentId);
+    return this.git.isTracked(`${this.path}/${DataMapper.generateFilePath(serviceId, termsType, mimeType, documentId)}`);
   }
 
   async #toDomain(commit, { deferContentLoading } = {}) {
