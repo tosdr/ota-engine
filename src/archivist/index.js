@@ -102,6 +102,12 @@ export default class Archivist extends events.EventEmitter {
   async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false, skipSnapshots = false, skipReadBack = false } = {}) {
     const numberOfTerms = Service.getNumberOfTerms(this.services, servicesIds, termsTypes);
 
+    // start at a random place in the alphabet for fairness in case the script stops prematurely
+    const startAt = Math.floor(Math.random()*servicesIds.length);
+    const rightPart = servicesIds.slice(startAt);
+    const leftPart = servicesIds.slice(0, startAt);
+    servicesIds = rightPart.concat(leftPart);
+
     this.emit('trackingStarted', servicesIds.length, numberOfTerms, extractOnly);
 
     await Promise.all([ launchHeadlessBrowser(), this.recorder.initialize() ]);
