@@ -1,6 +1,6 @@
 import events from 'events';
-
 import async from 'async';
+import showdown from 'showdown';
 
 import { InaccessibleContentError } from './errors.js';
 import extract, { ExtractDocumentError } from './extract/index.js';
@@ -99,7 +99,37 @@ export default class Archivist extends events.EventEmitter {
     });
   }
 
-  async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false } = {}) {
+  async crawl({ fetch, select }) {
+    await launchHeadlessBrowser();
+
+    console.log(fetch);
+    console.log(select);
+
+    const sourceDocuments = await this.trackTermsChanges({
+      terms: {
+        service: {
+          id: 'ephemeral'
+        },
+        sourceDocuments: [
+          {
+            location: fetch,
+            contentSelectors: [ select ]
+          }
+        ]
+      },
+      skipSnapshots: true,
+      skipRecording: true
+    });
+    console.log(sourceDocuments);
+    await stopHeadlessBrowser();
+    const results = await this.extractVersionContent(sourceDocuments);
+    const converter = new showdown.Converter();
+    const html      = converter.makeHtml(results);
+    return html;
+  }
+
+  async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false, skipSnapshots = false, skipReadBack = false, shard } = {}) {
+    console.log('track', termsTypes, extractOnly, skipSnapshots, skipReadBack, shard);
     const numberOfTerms = Service.getNumberOfTerms(this.services, servicesIds, termsTypes);
 
     this.emit('trackingStarted', servicesIds.length, numberOfTerms, extractOnly);
@@ -108,13 +138,38 @@ export default class Archivist extends events.EventEmitter {
 
     this.trackingQueue.concurrency = extractOnly ? MAX_PARALLEL_EXTRACTING : MAX_PARALLEL_TRACKING;
 
+    if (typeof shard === 'string') {
+      console.log(`Sharding the serviceIds list according to ${shard}`);
+      try {
+        const parts = shard.split('/');
+        if (parts.length === 2) {
+          const thisChunk = parseInt(parts[0]);
+          const numChunks = parseInt(parts[1]);
+          const chunkSize = Math.round(servicesIds.length / numChunks);
+          let chunkStart = thisChunk * chunkSize;
+          if (isNaN(chunkStart)) {
+            throw new Error('chunkStart is not a number');
+          }
+          let chunkEnd = (thisChunk + 1) * chunkSize;
+          if (isNaN(chunkEnd)) {
+            throw new Error('chunkEnd is not a number');
+          }
+          console.log(`sharding ${servicesIds.length} serviceIds according to "${shard}": ${chunkStart} - ${chunkEnd}`);
+          servicesIds = servicesIds.slice(chunkStart, chunkEnd);
+        }
+      } catch (e) {
+        console.log('Sharding failed', e.message);
+      }
+    } else {
+      console.log(`No sharding`);
+    }
     servicesIds.forEach(serviceId => {
       this.services[serviceId].getTermsTypes().forEach(termsType => {
         if (termsTypes.length && !termsTypes.includes(termsType)) {
           return;
         }
 
-        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly });
+        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly, skipSnapshots, skipReadBack });
       });
     });
 
@@ -127,20 +182,28 @@ export default class Archivist extends events.EventEmitter {
     this.emit('trackingCompleted', servicesIds.length, numberOfTerms, extractOnly);
   }
 
-  async trackTermsChanges({ terms, extractOnly = false }) {
+  async trackTermsChanges({ terms, extractOnly = false, skipReadBack = false, skipSnapshots = false, skipRecording = false }) {
+    // console.log('trackTermsChanges', terms, extractOnly, skipReadBack, skipSnapshots);
     if (!extractOnly) {
       await this.fetchSourceDocuments(terms);
-      await this.recordSnapshots(terms);
+      if (!skipSnapshots) {
+        await this.recordSnapshots(terms);
+      }
     }
 
-    await this.loadSourceDocumentsFromSnapshots(terms);
+    if (!skipSnapshots && !skipReadBack) {
+      await this.loadSourceDocumentsFromSnapshots(terms);
+    }
 
     if (terms.sourceDocuments.filter(sourceDocument => !sourceDocument.content).length) {
       // If some source documents do not have associated snapshots, it is not possible to generate a fully valid version
       return;
     }
 
-    return this.recordVersion(terms, extractOnly);
+    if (!skipRecording) {
+      await this.recordVersion(terms, extractOnly);
+    }
+    return terms.sourceDocuments;
   }
 
   async fetchSourceDocuments(terms) {
