@@ -82,10 +82,12 @@ export default class Archivist extends events.EventEmitter {
   }
 
   async getChunk(thisChunk, numChunk) {
-     
-    const res = await client.query('SELECT id,url,selector FROM documents WHERE MOD(id, $1::int) = $2::int', [numChunk, thisChunk]);
-    console.log(res.rows) // Hello world!
-    await client.end()
+    const res = await this.client.query('SELECT id,url,selector FROM documents WHERE MOD(id, $1::int) = $2::int', [numChunk, thisChunk]);
+    // [
+    //   { id: '1', url: 'http://example.com', selector: 'body' },
+    //   { id: '3', url: 'http://example.com', selector: 'body' }
+    // ]
+    return res;
   }
   initQueue() {
     this.trackingQueue = async.queue(this.trackTermsChanges.bind(this), MAX_PARALLEL_TRACKING);
@@ -179,7 +181,18 @@ export default class Archivist extends events.EventEmitter {
       documentSpecs = await getChunk(0, 1);
     }
     documentSpecs.forEach(documentSpec => {
-        this.trackingQueue.push({ terms: documentSpec, extractOnly, skipSnapshots, skipReadBack });
+      const terms = {
+        service: {
+          id: documentSpec.id, // WARNING: this is the primary key from the postgres `documents` table as a string, e.g. '153'
+        },
+        sourceDocuments: [
+          {
+            location: documentSpec.url,
+            contentSelectors: [ documentSpec.selector ]
+          }
+        ]
+      };
+      this.trackingQueue.push({ terms, extractOnly, skipSnapshots, skipReadBack });
     });
 
     if (this.trackingQueue.length()) {
@@ -211,6 +224,7 @@ export default class Archivist extends events.EventEmitter {
 
     if (!skipRecording) {
       await this.recordVersion(terms, extractOnly);
+      await this.recordInDb(terms);
     }
     return terms.sourceDocuments;
   }
@@ -277,6 +291,9 @@ export default class Archivist extends events.EventEmitter {
     }
 
     return result.join(Version.SOURCE_DOCUMENTS_SEPARATOR);
+  }
+  async recordInDb(terms) {
+    await this.client.query('UPDATE documents SET text = $1::text WHERE id = $2::int', ['some text we fetched', parseInt(terms.service.id)]);
   }
 
   async recordVersion(terms, extractOnly) {
