@@ -1,7 +1,8 @@
 import events from 'events';
 import async from 'async';
 import showdown from 'showdown';
-import { Client } from 'pg'
+import pg from 'pg';
+const { Client } = pg;
 
 import { InaccessibleContentError } from './errors.js';
 import extract, { ExtractDocumentError } from './extract/index.js';
@@ -82,12 +83,15 @@ export default class Archivist extends events.EventEmitter {
   }
 
   async getChunk(thisChunk, numChunk) {
-    const res = await this.client.query('SELECT id,url,selector FROM documents WHERE MOD(id, $1::int) = $2::int', [numChunk, thisChunk]);
+    const res = await this.client.query(`SELECT d.id, d.url, d.selector, s.name as service, t.name as type \
+FROM documents d INNER JOIN services s ON d.service_id = s.id INNER JOIN document_types t ON d.document_type_id = t.id \
+WHERE MOD(d.id, $1::int) = $2::int`, [numChunk, thisChunk]);
+    console.log(res.rows);
     // [
-    //   { id: '1', url: 'http://example.com', selector: 'body' },
-    //   { id: '3', url: 'http://example.com', selector: 'body' }
+    //   { id: '1', url: 'http://example.com', selector: 'body', service: 'YouTube', type: 'terms of service' },
+    //   { id: '3', url: 'http://example.com', selector: 'body', service: 'YouTube', type: 'terms of service' }
     // ]
-    return res;
+    return res.rows;
   }
   initQueue() {
     this.trackingQueue = async.queue(this.trackTermsChanges.bind(this), MAX_PARALLEL_TRACKING);
@@ -167,28 +171,30 @@ export default class Archivist extends events.EventEmitter {
           if (isNaN(thisChunk)) {
             throw new Error('thisChunk is not a number');
           }
-          if (isNaN(numChunk)) {
-            throw new Error('numChunk is not a number');
+          if (isNaN(numChunks)) {
+            throw new Error('numChunks is not a number');
           }
-          console.log(`sharding documents table according to "${shard}": [${thisChunk}] of [${numChunk}]`);
-          documentSpecs = await getChunk(thisChunk, numChunks);
+          console.log(`sharding documents table according to "${shard}": [${thisChunk}] of [${numChunks}]`);
+          documentSpecs = await this.getChunk(thisChunk, numChunks);
         }
       } catch (e) {
         console.log('Sharding failed', e.message);
       }
     } else {
       console.log(`No sharding`);
-      documentSpecs = await getChunk(0, 1);
+      documentSpecs = await this.getChunk(0, 1);
     }
     documentSpecs.forEach(documentSpec => {
       const terms = {
         service: {
-          id: documentSpec.id, // WARNING: this is the primary key from the postgres `documents` table as a string, e.g. '153'
+          id: documentSpec.service,
         },
+        type: documentSpec.type,
         sourceDocuments: [
           {
             location: documentSpec.url,
-            contentSelectors: [ documentSpec.selector ]
+            contentSelectors: [ documentSpec.selector ],
+            id: documentSpec.id, // WARNING: this is the primary key from the postgres `documents` table as a string, e.g. '153'
           }
         ]
       };
@@ -293,7 +299,7 @@ export default class Archivist extends events.EventEmitter {
     return result.join(Version.SOURCE_DOCUMENTS_SEPARATOR);
   }
   async recordInDb(terms) {
-    await this.client.query('UPDATE documents SET text = $1::text WHERE id = $2::int', ['some text we fetched', parseInt(terms.service.id)]);
+    await this.client.query('UPDATE documents SET text = $1::text WHERE id = $2::int', [terms.sourceDocuments[0].content, parseInt(terms.sourceDocuments[0].id)]);
   }
 
   async recordVersion(terms, extractOnly) {
