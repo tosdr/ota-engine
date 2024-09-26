@@ -12,7 +12,7 @@ import Reporter from './reporter/index.js';
 const require = createRequire(import.meta.url);
 
 export default async function track({ services, types, extractOnly, skipPreRun, skipSnapshots, skipReadBack, schedule, shard }) {
-    const archivist = new Archivist({
+  const archivist = new Archivist({
     recorderConfig: config.get('@opentermsarchive/engine.recorder'),
     fetcherConfig: config.get('@opentermsarchive/engine.fetcher'),
   });
@@ -44,6 +44,7 @@ export default async function track({ services, types, extractOnly, skipPreRun, 
   }
 
   if (extractOnly && !skipPreRun) {
+    await archivist.disconnect();
     return;
   }
 
@@ -76,7 +77,7 @@ export default async function track({ services, types, extractOnly, skipPreRun, 
 
   if (!schedule) {
     await archivist.track({ services, types, extractOnly, skipSnapshots, skipReadBack, shard });
-
+    await archivist.disconnect();
     return;
   }
 
@@ -91,4 +92,5 @@ export default async function track({ services, types, extractOnly, skipPreRun, 
     { protect: job => logger.warn(`Tracking scheduled at ${new Date().toISOString()} were blocked by an unfinished tracking started at ${job.currentRun().toISOString()}`) },
     () => archivist.track({ services, types }),
   );
+  await archivist.disconnect();
 }

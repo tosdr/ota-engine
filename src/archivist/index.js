@@ -1,6 +1,7 @@
 import events from 'events';
 import async from 'async';
 import showdown from 'showdown';
+import { Client } from 'pg'
 
 import { InaccessibleContentError } from './errors.js';
 import extract, { ExtractDocumentError } from './extract/index.js';
@@ -42,9 +43,15 @@ export default class Archivist extends events.EventEmitter {
     this.recorder = new Recorder(recorderConfig);
     this.fetch = params => fetch({ ...params, config: fetcherConfig });
     this.extract = extract;
+    this.client = new Client({
+      user: 'postgres',
+      database: 'postgres',
+      host: '127.0.0.1'
+    })
   }
 
   async initialize() {
+    await this.client.connect()
     if (this.services) {
       return;
     }
@@ -70,6 +77,16 @@ export default class Archivist extends events.EventEmitter {
     return this;
   }
 
+  async disconnect() {
+    await this.client.end();
+  }
+
+  async getChunk(thisChunk, numChunk) {
+     
+    const res = await client.query('SELECT id,url,selector FROM documents WHERE MOD(id, $1::int) = $2::int', [numChunk, thisChunk]);
+    console.log(res.rows) // Hello world!
+    await client.end()
+  }
   initQueue() {
     this.trackingQueue = async.queue(this.trackTermsChanges.bind(this), MAX_PARALLEL_TRACKING);
     this.trackingQueue.error((error, { terms }) => {
@@ -128,49 +145,41 @@ export default class Archivist extends events.EventEmitter {
     return html;
   }
 
-  async track({ services: servicesIds = this.servicesIds, types: termsTypes = [], extractOnly = false, skipSnapshots = false, skipReadBack = false, shard } = {}) {
-    console.log('track', termsTypes, extractOnly, skipSnapshots, skipReadBack, shard);
-    const numberOfTerms = Service.getNumberOfTerms(this.services, servicesIds, termsTypes);
+  async track({ extractOnly = false, skipSnapshots = false, skipReadBack = false, shard } = {}) {
+    console.log('track', extractOnly, skipSnapshots, skipReadBack, shard);
 
-    this.emit('trackingStarted', servicesIds.length, numberOfTerms, extractOnly);
+    this.emit('trackingStarted', extractOnly);
 
     await Promise.all([ launchHeadlessBrowser(), this.recorder.initialize() ]);
 
     this.trackingQueue.concurrency = extractOnly ? MAX_PARALLEL_EXTRACTING : MAX_PARALLEL_TRACKING;
 
+    let documentSpecs;
     if (typeof shard === 'string') {
-      console.log(`Sharding the serviceIds list according to ${shard}`);
+      console.log(`Sharding the documents table according to ${shard}`);
       try {
         const parts = shard.split('/');
         if (parts.length === 2) {
           const thisChunk = parseInt(parts[0]);
           const numChunks = parseInt(parts[1]);
-          const chunkSize = Math.round(servicesIds.length / numChunks);
-          let chunkStart = thisChunk * chunkSize;
-          if (isNaN(chunkStart)) {
-            throw new Error('chunkStart is not a number');
+          if (isNaN(thisChunk)) {
+            throw new Error('thisChunk is not a number');
           }
-          let chunkEnd = (thisChunk + 1) * chunkSize;
-          if (isNaN(chunkEnd)) {
-            throw new Error('chunkEnd is not a number');
+          if (isNaN(numChunk)) {
+            throw new Error('numChunk is not a number');
           }
-          console.log(`sharding ${servicesIds.length} serviceIds according to "${shard}": ${chunkStart} - ${chunkEnd}`);
-          servicesIds = servicesIds.slice(chunkStart, chunkEnd);
+          console.log(`sharding documents table according to "${shard}": [${thisChunk}] of [${numChunk}]`);
+          documentSpecs = await getChunk(thisChunk, numChunks);
         }
       } catch (e) {
         console.log('Sharding failed', e.message);
       }
     } else {
       console.log(`No sharding`);
+      documentSpecs = await getChunk(0, 1);
     }
-    servicesIds.forEach(serviceId => {
-      this.services[serviceId].getTermsTypes().forEach(termsType => {
-        if (termsTypes.length && !termsTypes.includes(termsType)) {
-          return;
-        }
-
-        this.trackingQueue.push({ terms: this.services[serviceId].getTerms({ type: termsType }), extractOnly, skipSnapshots, skipReadBack });
-      });
+    documentSpecs.forEach(documentSpec => {
+        this.trackingQueue.push({ terms: documentSpec, extractOnly, skipSnapshots, skipReadBack });
     });
 
     if (this.trackingQueue.length()) {
@@ -179,7 +188,7 @@ export default class Archivist extends events.EventEmitter {
 
     await Promise.all([ stopHeadlessBrowser(), this.recorder.finalize() ]);
 
-    this.emit('trackingCompleted', servicesIds.length, numberOfTerms, extractOnly);
+    this.emit('trackingCompleted', documentSpecs.length, extractOnly);
   }
 
   async trackTermsChanges({ terms, extractOnly = false, skipReadBack = false, skipSnapshots = false, skipRecording = false }) {
