@@ -41,5 +41,5 @@ RUN echo CACHE_BUST=$CACHE_BUST
 RUN git pull
 
 RUN . $NVM_DIR/nvm.sh && npm install
-EXPOSE 3000
+EXPOSE 3456
 CMD . $NVM_DIR/nvm.sh && node server.mjs
