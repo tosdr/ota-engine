@@ -36,7 +36,7 @@ RUN git clone --depth=1 https://github.com/tosdr/tosdr-versions versions
 WORKDIR /home/crawler/engine/data/versions
 RUN git commit-graph write --reachable --changed-paths
 WORKDIR /home/crawler/engine
-ENV CACHE_BUST=change-me-to-force-rebuild
+ENV CACHE_BUST=change-this-to-force-rebuild
 RUN echo CACHE_BUST=$CACHE_BUST
 RUN git pull
 
