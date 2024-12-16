@@ -1,5 +1,6 @@
 services:
   crawler:
+    pull_policy: build
     build: .
     ports:
       - "3456:3456"
