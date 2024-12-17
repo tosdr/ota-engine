@@ -7,3 +7,5 @@ services:
     env_file:
       - stack.env
     restart: on-failure
+    security_opt: 
+      - seccomp=/home/crawler/engine/chrome.json
