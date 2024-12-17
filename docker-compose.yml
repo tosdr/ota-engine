@@ -6,3 +6,4 @@ services:
       - "3456:3456"
     env_file:
       - stack.env
+    restart: on-failure
